@@ -1,0 +1,1013 @@
+@charset "utf-8";
+@import "../variables";
+@import "./user-banner.scss";
+//comm
+.tab-title {
+  border-bottom: 1px solid #eaeaea;
+  font-size: 16px;
+  //font-weight: 700;
+  color: $fontBaseColor;
+  span {
+    line-height: 50px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .active {
+    line-height: 51px;
+    border-bottom: 2px solid $mainColor;
+    color: $mainColor;
+  }
+}
+
+.table-list {
+  width: 100%;
+  margin-top: 10px;
+  thead {
+    tr {
+      background-color: #f1f1f1;
+    }
+  }
+  .w250 {
+    width: 250px;
+  }
+  tr {
+    border-bottom: 1px solid #f1f1f1;
+  }
+  th {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  td {
+    height: 60px;
+    text-align: center;
+    th {
+      background: #f5f5f5;
+    }
+  }
+  .go-pay {
+    color: $yellowColor;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+
+
+//main-container
+.main-container {
+  margin-top: 30px;
+  .sidebar {
+    font-size: 15px;
+    width: 250px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    float: left;
+    font-family: "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, Verdana, "Microsoft Yahei", sans-serif;
+    background: #fff url('../../img/user-sidebar-middle.png');
+    li {
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+      width: 88%;
+      border-bottom: 1px solid #f5f5f5;
+      margin-left: 19px;
+      a {
+        color: $mainColor;
+      }
+
+      .triangle-r {
+        display: none;
+        width: 0;
+        height: 0;
+        margin-left: 4px;
+        vertical-align: middle;
+        border-bottom: 8px dashed transparent;
+        border-top: 8px solid \9
+      ;
+        border-top: 8px solid transparent;
+        border-left: 8px solid $mainColor;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 13px;
+        left: 213px;
+        z-index: 99;
+      }
+      a {
+        color: $fontBaseColor;
+      }
+    }
+    .active {
+      border-right: 3px solid $mainColor;
+      position: relative;
+      right: -3px;
+      font-weight: 700;
+      color: $mainColor;
+      .triangle-r {
+        display: block;
+      }
+    }
+    .side-top {
+      background: #fff url('../../img/user-sidebar-top.png');
+      height: 30px;
+    }
+    .side-bottom {
+      background: #fff url('../../img/user-sidebar-bottom.png');
+      height: 120px;
+    }
+  }
+}
+
+/*
+账号信息模块
+========================================
+*/
+.main {
+  font-family: "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, Verdana, "Microsoft Yahei", sans-serif;
+  .form-group {
+    margin-bottom: 20px;
+  }
+  margin-bottom: 55px;
+  float: left;
+  width: 725px;
+  .user-img-upload {
+    position: relative;
+    .avatar {
+      width: 120px;
+      height: 120px;
+      margin: 0 25px 25px 0;
+    }
+  }
+  .btn-upload {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: #65c88f;
+    padding: 6px 10px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+  }
+  //.tips-txt {
+  //  position: absolute;
+  //  top: 40px;
+  //  left: 150px;
+  //}
+
+  .user-info-list {
+    font-size: 14px;
+    .form-control {
+      margin-right: 20px;
+    }
+  }
+
+}
+
+.btn-submit {
+  background-color: $mainColor;
+  padding: 8px 50px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.account-number {
+  width: 472px;
+  padding: 0 15px;
+  margin-bottom: 25px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #f5f5f5;
+  border: 1px solid #f1f1f1;
+  b {
+    margin-right: 20px;
+  }
+  .modify-pwd {
+    display: block;
+    float: right;
+    color: $mainColor;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.QR-code-box{
+  display: block;
+  float: right;
+  color: $mainColor;
+  text-decoration: underline;
+  cursor: pointer;
+  .QR-code{
+    width: 30px;
+    margin-bottom: 5px;
+  }
+}
+#view-qrCode{
+  margin-left: 95px;
+}
+
+
+/*
+VIP特权模块
+========================================
+*/
+.vip-module {
+  .vip-banner {
+    background-color: #74b5f9;
+  }
+  h3 {
+    font-size: 18px;
+    color: $mainColor;
+    line-height: 28px;
+  }
+  .row-box {
+    #vip-intro-content {
+      height: 150px;
+    }
+    .expect-module {
+      position: relative;
+      top: 80px;
+      left: 55px;
+    }
+    .online-upgrade {
+      width: 340px;
+      height: 315px;
+      border: 1px solid #eaeaea;
+      border-radius: 8px;
+      float: left;
+      padding: 10px 25px 25px 25px;
+      box-sizing: border-box;
+      .title {
+        text-align: center;
+        font-size: 20px;
+        color: #666666;
+      }
+      .icon-user-vip {
+        position: relative;
+        top: -2px;
+        margin-right: 3px;
+      }
+      select {
+        border-radius: 0 !important;
+        border: none;
+      }
+      .form-control {
+        border: none;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 12px;
+        .pay {
+          color: #ff3333;
+          font-size: 24px;
+          margin-right: 5px;
+        }
+      }
+      .input-group {
+        border: 1px solid #e4f0ff;
+      }
+      .input-group-addon {
+        border: none;
+        background-color: #fff;
+      }
+      .btn-yellow {
+        width: 100%;
+        text-align: center;
+        background-color: $mainColor;
+        color: #fff;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 1px;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+      }
+    }
+    .online-card-upgrade {
+      margin-right: 45px;
+      .icon-user-card {
+        position: relative;
+        top: -2px;
+        margin-right: 3px;
+      }
+      @extend .online-upgrade;
+    }
+
+    //  vip介绍
+    .col-1 {
+      float: left;
+      width: 165px;
+      height: 105px;
+      line-height: 105px;
+      text-align: center;
+      background-color: #efefef;
+      cursor: pointer;
+      margin-bottom: 20px;
+      font-weight: 700;
+      color: $fontBaseColor;
+      position: relative;
+      .triangle-t {
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 10px solid #efefef;
+        position: absolute;
+        bottom: -10px;
+        left: 74px;
+      }
+    }
+    .tab {
+      .triangle-t {
+        display: none;
+      }
+    }
+    .tab.active {
+      .triangle-t {
+        display: block;
+      }
+    }
+  }
+  .bottom-intro {
+    .list {
+      width: 130px;
+      text-align: center;
+      float: left;
+      margin: 60px 25px 60px;
+      h3 {
+        margin: 20px 0 5px;
+        font-size: 18px;
+        a {
+          color: $fontBaseColor;
+        }
+      }
+    }
+  }
+}
+
+/*
+我的收藏模块
+========================================
+*/
+.my-collection {
+  //.tab-title{
+  //  border-bottom:1px solid #eaeaea;
+  //  font-size: 18px;
+  //  font-weight: 700;
+  //  color: $fontBaseColor;
+  //  span{
+  //    line-height: 50px;
+  //    height: 50px;
+  //    display: inline-block;
+  //    cursor: pointer;
+  //    margin-right: 20px;
+  //  }
+  //  .active{
+  //    line-height: 51px;
+  //    border-bottom: 2px solid $mainColor;
+  //    color: $mainColor;
+  //  }
+  //}
+
+  //院校收藏
+  .school-data-list {
+    float: left;
+    width: 730px;
+    margin-right: 35px;
+    li {
+      border-bottom: 1px dashed #ccc;
+      position: relative;
+      height: 140px;
+      font-size: 14px;
+      color: #666666;
+      left: 0;
+      transition: all ease-out 1s;
+      .school-logo {
+        position: absolute;
+        cursor: pointer;
+        top: 20px;
+        left: 24px;
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+      }
+      .comm-position {
+        position: absolute;
+        top: 20px;
+      }
+      .top {
+        @extend .comm-position;
+        left: 148px;
+        font-weight: 700;
+        .school-name {
+          cursor: pointer;
+          font-size: 17px;
+          color: $fontBaseColor;
+          margin-right: 20px;
+          font-weight: normal;
+          min-width: 125px;
+          display: inline-block;
+          &:hover {
+            color: $yellowColor;
+          }
+        }
+        .icon-flag {
+          margin-right: 5px;
+          position: relative;
+          top: -3px;
+        }
+        .collect {
+          color: #666;
+          font-size: 14px;
+          text-decoration: none;
+          cursor: default;
+          .icon-heart {
+            margin: 0 5px 0 20px;
+            position: relative;
+            top: -3px;
+          }
+        }
+      }
+      .middle {
+        @extend .comm-position;
+        top: 57px;
+        left: 148px;
+        span {
+          padding: 1px 3px;
+          border-radius: 1px;
+          margin-right: 2px;
+        }
+        .type-985 {
+          color: $listColor1;
+          border: 1px solid $listColor1;
+        }
+        .type-211 {
+          color: $listColor2;
+          border: 1px solid $listColor2;
+        }
+        .type-yan {
+          color: $listColor3;
+          border: 1px solid $listColor3;
+        }
+        .type-zi {
+          color: $listColor4;
+          border: 1px solid $listColor4;
+        }
+        .type-guo {
+          color: $listColor5;
+          border: 1px solid $listColor5;
+        }
+        .type-zhuo {
+          color: $listColor6;
+          border: 1px solid $listColor6;
+        }
+        .btn {
+          padding: 3px 4px;
+          color: #fff;
+          outline: none;
+        }
+      }
+      .cancel-collection {
+        //background-color: #53d094;
+        border: 1px solid $mainColor;
+        color: $mainColor;
+        position: absolute;
+        top: 55px;
+        right: 35px;
+        outline: none;
+        width: 75px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 2px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 14px;
+        &:hover {
+          background: $mainColor;
+          color: #fff;
+        }
+      }
+      .bottom {
+        position: absolute;
+        top: 100px;
+        left: 148px;
+        .icon-location, .icon-web {
+          position: relative;
+          top: -2px;
+        }
+        .province, .belong, .school-type {
+          margin-right: 15px;
+        }
+        .enter-site {
+          color: #666;
+          font-size: 14px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+  //  课程收藏
+  .subject-data-list {
+    li {
+      padding: 22px 0;
+      border-bottom: 1px dashed #eaeaea;
+      position: relative;
+      overflow: hidden;
+      .subject-logo {
+        float: left;
+        width: 180px;
+        height: 110px;
+        margin-right: 10px;
+      }
+      .about-subject {
+        float: left;
+        color: #999999;
+        .subject-name {
+          cursor: pointer;
+          margin: 0;
+          color: $fontBaseColor;
+          font-size: 16px;
+        }
+        .teacher-name {
+          line-height: 28px;
+        }
+        .icon-subject-person {
+          position: relative;
+          top: -1px;
+        }
+        .join {
+          display: inline-block;
+          margin-top: 14px;
+          color: #66c78f;
+        }
+      }
+    }
+  }
+}
+
+/*
+我的回答模块
+========================================
+*/
+
+.my-answer {
+  .tab-title {
+    .l {
+      font-style: normal;
+      margin: 0 12px 0 0;
+      display: inline-block;
+    }
+  }
+  .my-answer-data-list,
+  .no-data-list,
+  .yes-data-list {
+    display: none;
+    padding: 0;
+    font-size: 14px;
+    li {
+      position: relative;
+      margin: 18px 0;
+      padding-bottom: 20px;
+      display: block;
+      //min-height: 210px;
+      clear: both;
+      border-bottom: 1px dashed #ccc;
+      .avatar-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+      .user-name {
+        color: $fadeGreenColor;
+        position: absolute;
+        top: 15px;
+        left: 85px;
+        .no {
+          position: absolute;
+          top: 0;
+          cursor: pointer;
+          right: -415px;
+          padding: 2px 4px;
+          border-radius: 2px;
+          font-size: 12px;
+          border: 1px solid $greenColor;
+          color: $greenColor;
+          background-color: #fff;
+        }
+      }
+      .time {
+        color: #999;
+        margin-left: 30px;
+      }
+      .title {
+        position: absolute;
+        top: 43px;
+        left: 85px;
+      }
+      .content {
+        //position: absolute;
+        //top:80px;
+        //left: 85px;
+        position: relative;
+        margin-left: 90px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        width: 648px;
+        padding: 10px 15px 15px;
+        border: 1px solid #dcdcdc;
+        line-height: 22px;
+        border-radius: 2px;
+        .txt {
+          color: #666;
+        }
+        .eg {
+          margin: 0;
+          line-height: 26px;
+          color: $yellowColor;
+        }
+        .triangle {
+          position: absolute;
+          background-color: #fff;
+          top: -7px;
+          left: 20px;
+          filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+          width: 12px;
+          height: 12px;
+          border-left: 1px solid #ccc;
+          border-top: 1px solid #ccc;
+        }
+      }
+      .yes {
+        position: absolute;
+        top: 84px;
+        left: 12px;
+        color: #fff;
+        background-color: #ffc766;
+        padding: 2px 4px;
+        border-radius: 2px;
+        font-size: 12px;
+      }
+    }
+
+  }
+}
+
+/*
+我要预约模块
+========================================
+*/
+.my-order {
+  .btn-order {
+    background-color: #65c88f;
+    color: #fff;
+    padding: 9px 20px;
+    margin-left: 10px;
+  }
+  //.table-list {
+  //  width: 100%;
+  //  margin-top: 10px;
+  //  .w250 {
+  //    width: 250px;
+  //  }
+  //  tr {
+  //    border-bottom: 1px solid #f1f1f1;
+  //  }
+  //  th {
+  //    height: 40px;
+  //    line-height: 40px;
+  //    text-align: center;
+  //  }
+  //  td {
+  //    height: 60px;
+  //    text-align: center;
+  //    th {
+  //      background: #f5f5f5;
+  //    }
+  //  }
+  //  .go-pay {
+  //    color: $yellowColor;
+  //    text-decoration: underline;
+  //    cursor: pointer;
+  //  }
+  //}
+}
+
+/*
+目标定位模块
+========================================
+*/
+.target-location {
+  $borderMain: #e8e8e8;
+  .section1 {
+    background-color: #fcfcfc;
+    border: 1px solid $borderMain;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    &:hover {
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+    .target-item {
+      margin: 0 auto;
+      width: 385px;
+      position: relative;
+      margin-top: 40px;
+      .alert-danger {
+        display: none;
+        position: absolute;
+        top: 127px;
+        left: 0;
+        width: 386px;
+        z-index: 100;
+      }
+      .form-group {
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+      }
+      .form-control {
+        margin-right: 20px;
+      }
+      .form-control, .input-group-addon {
+        background: #fff;
+        border: none;
+        font-size: 16px;
+      }
+    }
+    .btn-target-location {
+      width: 100%;
+      color: #fff;
+      background-color: $mainColor;
+      &:hover {
+        background-color: $mainColorHover;
+      }
+    }
+    .tips {
+      margin-bottom: 30px;
+      margin-top: 10px;
+    }
+  }
+  .section2 {
+    margin-bottom: 30px;
+    background-color: #fcfcfc;
+    border: 1px solid $borderMain;
+    padding: 10px 30px 30px;
+    border-radius: 2px;
+    &:hover {
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+    .table-list td {
+      height: 45px !important;
+    }
+    .btn-target-location {
+      width: 50%;
+      color: #fff;
+      background-color: $mainColor;
+      margin: 40px auto;
+      display: block;
+    }
+    .title-info {
+      border-bottom: 2px solid $mainColor;
+      margin-bottom: 15px;
+      position: relative;
+      .easy-title {
+        font-size: 16px;
+        margin-left: -10px;
+        margin-bottom: 10px;
+      }
+      h3 {
+        font-weight: 700;
+        text-align: center;
+        color: $mainColor;
+        font-size: 18px;
+      }
+      .star-list {
+        position: relative;
+        .star {
+          display: inline-block;
+        }
+        .no-batch {
+          position: relative;
+          top: -6px;
+        }
+      }
+      .icon-star {
+        position: relative;
+        top: -4px;
+        margin-right: 5px;
+      }
+      .wl {
+        margin-right: 50px;
+      }
+      .btn-recommend {
+        position: absolute;
+        top: 45px;
+        right: 0;
+        background-color: $mainColor;
+        color: #fff;
+        padding: 6px 8px;
+        &:hover {
+          background-color: $mainColorHover;
+        }
+      }
+    }
+    .about-target-content {
+      overflow: hidden;
+      .user-target-img {
+        float: left;
+      }
+      .target-content {
+        float: left;
+        color: #666;
+        margin-left: 20px;
+        line-height: 28px;
+        margin-top: 10px;
+        .txt {
+          font-size: 18px;
+          color: $mainColor;
+        }
+        .txt-link {
+          text-decoration: underline;
+          font-size: 14px;
+          color: $mainColor;
+        }
+        .person-num {
+          font-size: 20px;
+        }
+        .score {
+          @extend .person-num;
+        }
+      }
+      .ago-situation {
+        clear: both;
+        font-size: 16px;
+        line-height: 40px;
+      }
+      .table-list {
+        tr, td {
+          border: 1px solid #f1f1f1;
+        }
+      }
+      .no-data-tips {
+        display: none;
+        text-align: center;
+        height: 100px;
+        line-height: 100px;
+        font-size: 14px;
+        border: 1px solid #f1f1f1;
+      }
+    }
+  }
+  .section3 {
+    padding: 10px 30px 30px;
+    background-color: #fcfcfc;
+    border: 1px solid $borderMain;
+    border-radius: 2px;
+    &:hover {
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+    .chart-container {
+      max-width: 650px;
+      #my-score-account-chart {
+        //min-width: 800px;
+        //width: auto;
+        min-height: 400px;
+        margin-bottom: 20px;
+      }
+    }
+    .table-list tr {
+      color: #57646D;
+    }
+    .table-list td {
+      height: 40px !important;
+    }
+    h3 {
+      text-align: center;
+      color: $mainColor;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .table-list {
+      tr, td {
+        border: 1px solid #f1f1f1;
+      }
+    }
+  }
+}
+
+/*
+服务中心模块
+========================================
+*/
+
+.service-center {
+  a {
+    margin: 25px 48px;
+    overflow: hidden;
+    display: block;
+    width: 85px;
+    text-align: center;
+    color: $fontBaseColor;
+    text-decoration: none;
+    float: left;
+  }
+  .module-img {
+    display: block;
+    float: left;
+    height: 85px;
+    margin-bottom: 10px;
+    transition: all ease-in-out .2s;
+    &:hover {
+      border-radius: 50%;
+    }
+  }
+}
+
+
+.my-collection {
+  .content-list {
+    display: none;
+  }
+  .content-list.active {
+    display: block;
+  }
+}
+
+.avatar-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.target-score-btn,
+.target-score-btn:hover,
+.target-score-btn:active {
+  vertical-align: top;
+  background: $mainColor;
+  color: #FFF;
+  border: none;
+  font-size: 16px;
+}
+
+//
+//.tips-cl {
+//  color: $mainColor;
+//  position: relative;
+//  top: -7px;
+//}
+
+.modify-pwd-form {
+  overflow: hidden;
+  width: 360px;
+  margin: 0 auto;
+  .account-number {
+    margin-bottom: 0;
+  }
+  .btn {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+.modify-pwd-btn-box {
+  position: relative;
+  #tips-pwd {
+    display: none;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 92%;
+    margin: 0 15px;
+
+  }
+  .modify-pwd-btn {
+    padding: 8px 50px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: $mainColor !important;
+  }
+}
+
+#uploaderBtn1 .webuploader-pick {
+  background: #00b7ee !important;
+  line-height: 32px !important;
+  padding: 0 8px !important;
+  border-radius: 2px !important;
+  font-size: 16px !important;
+  color: #fff;
+  display: inline-block;
+  margin: 0 auto 10px;
+  cursor: pointer;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+  text-align: center;
+  position: relative;
+  left: -10px;
+  height: inherit !important;
+}

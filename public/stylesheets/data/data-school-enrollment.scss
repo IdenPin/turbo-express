@@ -1,0 +1,174 @@
+@charset "utf-8";
+@import "../variables";
+
+/*
+院校招生信息
+*/
+.search-box {
+  margin: 30px 60px 30px 190px;
+}
+._ml45{
+  margin-left: -45px!important;
+}
+.choose-option {
+  border:1px solid #e8e8e8;
+  border-radius: 2px;
+  padding: 20px;
+  margin-bottom: 10px;
+  .tips{
+    color: $mainColor;
+  }
+  dl {
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    dt {
+      width: 120px;
+      display: inline-block;
+      //background-color: #00d6b2;
+      vertical-align: top;
+      .all {
+        line-height: 24px;
+        color: $fontBaseColor;
+        padding: 0 6px;
+        display: inline-block;
+        border-radius: 2px;
+      }
+      .active{
+        background-color: $mainColor;
+        color: #fff;
+      }
+    }
+    dd {
+      width: 824px;
+      //background-color: #0b97c4;
+      display: inline-block;
+      span {
+        margin: 0 5px;
+        padding: 0 6px;
+        line-height: 24px;
+        cursor: pointer;
+        border-radius: 2px;
+        float: left;
+        display: block;
+        &:hover {
+          background-color: $mainColor;
+          color: #fff;
+        }
+      }
+      .active {
+        background-color: $mainColor;
+        color: #fff;
+      }
+    }
+  }
+}
+//结果列表
+.result-box{
+  .title{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    b{
+      cursor: pointer;
+    }
+    .active{
+      display: inline-block;
+      color: $mainColor;
+      border-bottom: 2px solid $mainColor;
+      position: relative;
+      //倒三角
+      .triangle-bottom {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-top: 8px solid \9;
+        border-top: 8px solid $mainColor!important;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        position: absolute;
+        top: 40px;
+        left: 45px;
+        z-index: 99;
+      }
+    }
+    .divide{
+      font-weight: 700;
+      margin: 0 20px;
+    }
+  }
+  .table-list{
+    width: 100%;
+    margin-top: 10px;
+    .w250{
+      width: 250px;
+    }
+    tr{
+      border-bottom: 1px solid #f1f1f1;
+    }
+    th{
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+    }
+    .school-info{
+      position: relative;
+      text-align: left;
+      text-indent: 25px;
+      height: 60px;
+    }
+    .icon-heart{
+      position: absolute;
+      top: 22px;
+      left: 12px;
+    }
+    .name{
+      width: 200px;
+      margin: 0;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+    td{
+      text-align: center;
+      .list-type{
+        span{
+          padding: 1px 3px;
+          border-radius: 1px;
+          margin-right: 2px;
+        }
+        .type-985{
+          color: $listColor1;
+          border:1px solid $listColor1;
+        }
+        .type-211{
+          color: $listColor2;
+          border:1px solid $listColor2;
+        }
+        .type-yan{
+          color: $listColor3;
+          border:1px solid $listColor3;
+        }
+        .type-zi{
+          color: $listColor4;
+          border:1px solid $listColor4;
+        }
+        .type-guo{
+          color: $listColor5;
+          border:1px solid $listColor5;
+        }
+        .type-zhuo{
+          color: $listColor6;
+          border:1px solid $listColor6;
+        }
+      }
+    }
+    th{
+      background: #f5f5f5;
+    }
+  }
+
+
+}
+
+

@@ -1,0 +1,396 @@
+@charset "utf-8";
+@import "variables";
+
+.header {
+  //background-color: #fff;
+  //width: 100%;
+  //padding: 0 60px;
+  //position: fixed;
+  //top:0;
+  //z-index: 999;
+
+
+
+
+  height: 80px;
+  line-height: 80px;
+  vertical-align: middle;
+  .logo {
+    position: relative;
+    //width: 280px;
+    //current-province
+    .current-province {
+
+      display: inline-block;
+      padding: 0 12px;
+      margin: 10px 26px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      cursor: pointer;
+      transition: all ease-in-out .2s;
+      &:hover .opc-div {
+        display: block;
+      }
+      .current {
+        display: inline-block;
+        margin-left: 2px;
+        padding-right: 3px;
+      }
+      .opc-div {
+        display: none;
+        position: absolute;
+        height: 112px;
+        left: 100px;
+        width: 200px;
+        top: 0;
+      }
+      .select-province {
+        display: block;
+        padding: 10px;
+        box-sizing: border-box;
+        width: 320px;
+        background-color: #000;
+        position: absolute;
+        z-index: 9999;
+        border-radius: 0 0 5px 5px;
+        top: 80px;
+        filter: alpha(opacity=80);
+        -moz-opacity: 0.8;
+        -khtml-opacity: 0.8;
+        opacity: 0.8;
+        left: -30px;
+        li {
+          display: block;
+          float: left;
+          padding: 0 6px;
+          color: #fff;
+          width: 59px;
+          height: 27px;
+          line-height: 27px;
+          cursor: pointer;
+          a {
+            color: #fff;
+          }
+          &:hover {
+            background-color: rgb(220, 5, 17);
+            padding: 0 6px;
+            border-radius: 15px;
+          }
+        }
+        .w-arrow {
+          cursor: pointer;
+          position: absolute;
+          width: 22px;
+          left: 50%;
+          margin: 0 0 0 -11px;
+          top: -17px;
+          height: 20px;
+
+          .w-arrow-a {
+            display: block;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            filter: alpha(opacity=90);
+            -moz-opacity: 0.9;
+            -khtml-opacity: 0.9;
+            opacity: 0.9;
+            border-color: transparent transparent #000 transparent;
+          }
+        }
+      }
+    }
+    .current-province.isLogin:hover .opc-div {
+      display: none;
+    }
+  }
+
+  .official-link {
+    font-size: 14px;
+    color: $fontBaseColor;
+    line-height: 80px;
+    padding: 0 40px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .login {
+    a {
+      color: $fontBaseColor;
+      line-height: 80px;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.menu {
+  li {
+    display: block;
+    float: left;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    a {
+      padding: 0 16px;
+      margin-left: 9px;
+      color: #333;
+      display: block;
+      line-height: 34px;
+      border-radius: 20px;
+      font-size: 16px;
+      margin-top: 22px;
+      background-color: #fff;
+      cursor: pointer;
+      transition: all ease-in-out 0.3s;
+      &.active,
+      &:hover {
+        background-color: $mainColor;
+        text-decoration: none;
+        color: #fff;
+        transition: background 0.03s ease-in, color 0.03s ease-out
+      }
+    }
+    .sub-menu {
+      display: none;
+      width: 100%;
+      min-height: 150px;
+      position: absolute;
+      z-index: 10000;
+      .w-arrow {
+        cursor: pointer;
+        position: absolute;
+        width: 22px;
+        left: 50%;
+        margin: 0 0 0 -11px;
+        top: -20px;
+        height: 20px;
+        .w-arrow-a,
+        .w-arrow-b {
+          display: block;
+          width: 0;
+          height: 0;
+          border: 10px solid transparent;
+        }
+        .w-arrow-a {
+          border-color: transparent transparent #c6cacc transparent;
+        }
+        .w-arrow-b {
+          position: relative;
+          top: -18px;
+          border-color: transparent transparent #fff transparent;
+        }
+      }
+      ul {
+        position: absolute;
+        left: 5px;
+        top: 10px;
+        width: 100%;
+        display: block;
+        z-index: 1000;
+        padding: 0;
+        background-color: #fff;
+        border: 1px solid #c6cacc;
+        margin: 0;
+        border-radius: 5px;
+
+        li {
+          border-bottom: 1px dashed #ccc;
+          line-height: 30px;
+          a {
+            display: block;
+            width: 100%;
+            padding: 0;
+            margin-left: 0;
+            margin-top: 0;
+            height: 40px;
+            line-height: 40px;
+            transition: none;
+            &:hover {
+              transition: none;
+              border-radius: 4px;
+              //border-top-left-radius: 4px;
+              //border-top-right-radius: 4px;
+              //border-bottom-right-radius: 0;
+              //border-bottom-left-radius: 0;
+            }
+          }
+          &:last-child {
+            border-bottom: none !important;
+          }
+        }
+      }
+    }
+
+    ul li {
+      display: block;
+      width: 100%;
+      line-height: 40px;
+      padding: 0;
+      text-align: center;
+    }
+
+    ul li a {
+      display: block;
+      width: 100%;
+      line-height: 40px;
+      padding: 0;
+    }
+
+    &:hover .sub-menu {
+      display: block;
+    }
+    .triangle-b {
+      display: inline-block;
+      width: 0;
+      height: 0;
+      margin-left: 4px;
+      vertical-align: middle;
+      border-bottom: 8px dashed;
+      border-top: 8px solid \9
+    ;
+      border-right: 8px solid transparent;
+      border-left: 8px solid transparent;
+      border-bottom: 8px solid #fff;
+      position: absolute;
+      top: -8px;
+      left: 45px;
+      z-index: 99;
+    }
+  }
+}
+
+.header {
+  .login-nav {
+    width: 100px;
+    height: 80px;
+    .login-end {
+      .user-info {
+        width: 200px;
+        img {
+          cursor: pointer;
+          margin-right: 8px;
+          vertical-align: middle;
+          width: 32px;
+          height: 32px;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+        }
+      }
+    }
+  }
+  .login-front {
+    cursor: pointer;
+    height: 80px;
+    line-height: 80px;
+    background-color: $mainColor;
+    color: #fff;
+    text-align: center;
+    a {
+      color: #fff;
+    }
+    &:hover {
+      color: #f7ab00;
+      a {
+        transition: background 0.03s ease-in, color 0.03s ease-out;
+        color: #f7ab00;
+      }
+    }
+  }
+  .overseas-study {
+    i {
+      position: relative;
+      top: -2px;
+      margin-left: 15px;
+    }
+    a {
+      color: #666;
+    }
+    &:hover{
+      a{
+        color: $mainColor;
+      }
+    }
+  }
+}
+
+.login-end {
+  position: relative;
+  a {
+    color: #333;
+    display: block;
+    line-height: 80px;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+  }
+  .sub-menu {
+    display: none;
+    width: 100px;
+    min-height: 100px;
+    overflow: hidden;
+  }
+  ul {
+    position: absolute;
+    left: 0;
+    top: 89px;
+    width: 100%;
+    display: block;
+    z-index: 1000;
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid $mainColorHover;
+    .w-arrow {
+      cursor: pointer;
+      position: absolute;
+      width: 22px;
+      left: 50%;
+      margin: 0 0 0 -11px;
+      top: -20px;
+      .w-arrow-a,
+      .w-arrow-b {
+        display: block;
+        width: 0;
+        height: 0;
+        border: 10px solid transparent;
+      }
+      .w-arrow-a {
+        border-color: transparent transparent $mainColor transparent;
+      }
+      .w-arrow-b {
+        position: relative;
+        top: -20px;
+        border-color: transparent transparent $mainColor transparent;
+      }
+    }
+  }
+  ul li {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    padding: 0;
+    text-align: center;
+  }
+
+  ul li a {
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    padding: 0;
+    &:hover {
+      background-color: $mainColor;
+      text-decoration: none;
+      color: #fff;
+      transition: background 0.03s ease-in, color 0.03s ease-out
+    }
+  }
+  &:hover .sub-menu {
+    display: block;
+  }
+}
+

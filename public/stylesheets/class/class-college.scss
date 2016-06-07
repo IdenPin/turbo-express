@@ -1,0 +1,152 @@
+@charset "utf-8";
+@import "../variables";
+
+.banner{
+  background:#ec8887 url('../../img/class-college-banner.png') center center;
+  width: 100%;
+  //width: 1440px;
+  height: 320px;
+}
+.h2-t{
+  margin-top: 0;
+}
+
+.login-txt {
+  font-size: 14px;
+  color: #666;
+  margin-left: 30px;
+  a {
+    color: $mainColor;
+    &:hover {
+      color: $yellowColor;
+    }
+  }
+}
+
+.school-main {
+  margin-top: 20px;
+  overflow: hidden;
+}
+.list-header{
+  float: left;
+  width:235px;
+  height:375px;
+  margin-right:20px;
+}
+.list-header-bg1{
+  background:#f1f1f1 url('../../img/video-bg-zyjt.jpg');
+}
+.list-header-bg2{
+  //background:#f1f1f1 url('../../img/video-bg-xlxt.png');
+}
+.list-header-bg3{
+  //background:#f1f1f1 url('../../img/video-bg-gkxt.png');
+}
+.list-body{
+  .list-ul{
+    width:1040px;
+  }
+  .list-item {
+    float: left;
+    margin:0 20px 10px 0;
+    width: 235px;
+    overflow: hidden;
+    img {
+      width:235px;
+      height:142px;
+      background-color: #f1f1f1;
+    }
+    p.name{
+      height:38px;
+      line-height:38px;
+      text-align: left;
+      font-size:16px;
+      color: #666;
+      margin:0;
+    }
+    .list-links:hover,
+    .list-links:hover p{
+      color: $mainColor;
+    }
+  }
+}
+.content-r{
+  .list-item p.name{
+    color: #333;
+    font-size:14px;
+    height:24px;
+    line-height:24px;
+  }
+  .list-item p.teacher{
+    color: #999;
+    font-size:14px;
+    height:18px;
+    line-height:18px;
+    margin:0;
+  }
+  img{
+    background-color: #f1f1f1;
+  }
+}
+.page-nav{
+  height:26px;
+  .page-nav-ul{
+    float: right;
+    .page-nav-item{
+      margin-right: 8px;
+      display: inline-block;
+      width:26px;
+      height:26px;
+      line-height:26px;
+      text-align: center;
+      border:1px solid #e0e0e0;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .active{
+      border:1px solid $mainColor;
+      color: $mainColor;
+    }
+  }
+}
+
+
+//顶级名师团
+.w1000{
+  font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif;
+  .title-name{
+    color: $mainColor;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+    margin-top: 0;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 20px;
+  }
+  .top-teach-team-list{
+    overflow: hidden;
+    width: 1060px;
+  }
+  .col-comm{
+    float: left;
+    margin-bottom: 80px;
+    .avatar-img{
+      margin: 20px 75px 10px 0;
+      width: 190px;
+      height: 215px;
+      background-color: #f1f1f1;
+    }
+    .no-mr{
+      margin-right: 0;
+    }
+    p{
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+    .txt1,.txt2{
+      font-size: 14px;
+      color: #666;
+    }
+
+  }
+}

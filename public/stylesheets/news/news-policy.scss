@@ -1,0 +1,98 @@
+@charset "utf-8";
+@import "../variables";
+
+//高考政策banner
+.banner {
+  width: 100%;
+  height: 204px;
+  background-color: #cccccc;
+  background-position: center center;
+}
+
+//搜索
+.search {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+//高考政策|招办电话
+.gk-policy {
+  .policy-list {
+    float: left;
+    min-height: 380px;
+    margin-top: 15px;
+    width: 790px;
+    .box {
+      position: relative;
+      //height: 95px;
+      padding: 10px;
+      border: 1px solid #eee;
+      margin-bottom: 10px;
+      width: 790px;
+      color: #999;
+      .time {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+      }
+      a {
+        color: $fontBaseColor;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 0;
+        line-height: 30px;
+        width: 612px;
+        overflow: hidden;
+        display: block;
+        white-space: nowrap;
+        &:hover{
+          color: $mainColor;
+        }
+      }
+      p {
+        margin: 0;
+        line-height: 20px;
+        font-size: 14px;
+      }
+    }
+  }
+  .gk-tel {
+    float: left;
+    width: 180px;
+    margin-left: 30px;
+    .h2-t {
+      margin: 0;
+    }
+    .tel-list {
+      //height: 55px;
+      margin-bottom: 100px;
+      .box{
+        position: relative;
+        padding: 12px 0;
+        border-bottom: 1px dashed #eee;
+        span{
+          position: absolute;
+          top:10px;
+          left: 40px;
+          height: 20px;
+          overflow: hidden;
+        }
+        p{
+          position: absolute;
+          top:22px;
+          left: 40px;
+          color: #868686;
+          font-size: 16px;
+          white-space: nowrap;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}
+
+//pagination分页
+.pagination{
+  float: left;
+}

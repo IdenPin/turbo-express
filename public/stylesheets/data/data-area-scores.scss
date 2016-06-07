@@ -1,0 +1,94 @@
+@charset "utf-8";
+@import "../variables";
+
+/*
+地区批次线
+*/
+
+
+
+
+
+.search-box {
+  margin: 30px 60px 30px 190px;
+}
+.content {
+  border: 1px solid #ccc;
+  padding: 20px 10px 20px 20px;
+  margin-top:40px;
+  .choose-option {
+    border-radius: 2px;
+    .tips {
+      color: #fe3430;
+    }
+    dl {
+      border-bottom: 1px dashed #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+      dt {
+        width: 80px;
+        display: inline-block;
+        //background-color: #00d6b2;
+        vertical-align: top;
+        .all {
+          line-height: 24px;
+          background-color: $mainColor;
+          color: #fff;
+          padding: 0 6px;
+          display: inline-block;
+          border-radius: 2px;
+        }
+      }
+      dd {
+        width: 834px;
+        //background-color: #0b97c4;
+        display: inline-block;
+        span {
+          margin: 3px 5px;
+          padding: 0 6px;
+          line-height: 20px;
+          cursor: pointer;
+          border-radius: 2px;
+          float: left;
+          display: block;
+          &:hover {
+            background-color: $mainColor;
+            color: #fff;
+          }
+        }
+        .active {
+          background-color: $mainColor;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+//table
+.area-scores-container {
+  margin: 30px auto;
+  table {
+    width: 100%;
+  }
+  th {
+    background: #f5f5f5;
+  }
+  td, th {
+    border: 1px solid #f1f1f1;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .area-scores-content{
+    h1{
+      font-size:16px;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}
+
+
+
+

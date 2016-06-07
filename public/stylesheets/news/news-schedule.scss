@@ -1,0 +1,105 @@
+@charset "utf-8";
+@import "../variables";
+
+//高考日程
+.banner {
+  background:#f8cf7a url('../../img/banner-schedule.jpg');
+  width: 100%;
+  height: 204px;
+  //background-position: center center;
+  .count-down {
+    position: relative;
+    .box {
+      position: absolute;
+      left: 550px;
+      top: 130px;
+      font-size: 20px;
+      color: #fff;
+      .date {
+        font-size: 36px;
+        display: inline-block;
+        height: 51px;
+        width: 35px;
+        margin: 0 5px;
+        text-align: center;
+      }
+    }
+  }
+}
+//日历文章
+.calendar-article {
+  .calendar-list {
+    padding: 0;
+    color: #fff;
+    li {
+      cursor: pointer;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+      float: left;
+      height: 60px;
+      width: 60px;
+      margin-right: 19px;
+      line-height: 60px;
+      border-radius: 50%;
+      background-color: #ddd;
+      transition: width ease-in-out .2s;
+    }
+    .active {
+      background-color: $mainColor;
+      width: 70px;
+      height: 70px;
+      line-height: 70px;
+      position: relative;
+      top: -5px;
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .last-child {
+      margin-right: 0;
+    }
+  }
+  .article-container {
+    clear: both;
+    h3 {
+      font-size: 18px;
+      color: $mainColor;
+    }
+    .article-list {
+      float: left;
+      width: 265px;
+      //height: 325px;
+      background-color: #f6f6f6;
+      padding: 15px;
+      transition: all ease-in .1s;
+      .active {
+        color: $mainColor;
+      }
+      a {
+        color: #333;
+        line-height: 30px;
+        font-size: 14px;
+      }
+    }
+    .article-detail {
+      margin-left: 30px;
+      float: left;
+      width: 705px;
+      .title-info {
+        text-align: center;
+        border-bottom: 1px dashed #ccc;
+        margin-bottom: 20px;
+        h3 {
+          color: #333;
+          margin: 10px 0;
+        }
+      }
+      min-height: 400px;
+    }
+    .txt {
+      line-height: 24px;
+      font-size: 14px;
+    }
+  }
+
+}

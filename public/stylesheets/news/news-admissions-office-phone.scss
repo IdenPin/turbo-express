@@ -1,0 +1,109 @@
+@charset "utf-8";
+@import "../variables";
+
+._ml45 {
+  margin-left: -45px !important;
+}
+
+//院校信息筛选
+.select-box {
+  //border: 1px solid #ccc;
+  padding: 10px 0;
+  clear: both;
+  .content {
+    height: auto;
+    border: 1px solid #e8e8e8;
+    padding: 20px 29px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 99;
+    overflow: hidden;
+  }
+  .tips{
+    color: $mainColor;
+  }
+
+  .comm-select {
+    padding: 10px 0;
+    .left-title {
+      line-height: 24px;
+      float: left;
+      width: 90px;
+      h2 {
+        font-size: 14px;
+        display: inline-block;
+        padding: 0;
+        margin: 0 5px 0 0;
+      }
+      .all {
+        padding: 3px 5px;
+        border-radius: 1px;
+        margin: 0 5px 5px 5px;
+        cursor: pointer;
+      }
+      .active {
+        @extend .hover;
+        &:hover {
+          @extend .hover;
+        }
+      }
+    }
+    .hover {
+      color: #fff;
+      background-color: $mainColor;
+    }
+    .right-item {
+      padding: 0;
+      width: 850px;
+      float: left;
+      li {
+        padding: 2px 5px;
+        border-radius: 1px;
+        margin: 0 6px 6px 0;
+        float: left;
+        cursor: pointer;
+        &:hover {
+          //transition:all 1s;
+          @extend .hover;
+        }
+      }
+    }
+    .active {
+      @extend .hover;
+    }
+  }
+  .school-data-list {
+    margin-bottom: 30px;
+    .item {
+      width: 230px;
+      height: 90px;
+      border: 1px solid #D7D7D7;
+      border-radius: 2px;
+      float: left;
+      margin: 30px 10px 0px 10px;
+      .icon {
+        width: 42px;
+        height: 42px;
+        margin: 24px;
+        float: left;
+        background: url('../../img/icon-zgk-phone.png');
+      }
+      .text-content {
+        width: 138px;
+        height: 90px;
+        overflow: hidden;
+        float: left;
+        >span {
+          display: block;
+          height: 45px;
+          width: 138px;
+          overflow: hidden;
+          font-size: 16px;
+          &:first-child {
+            line-height: 60px;
+          }
+        }
+      }
+    }
+  }
+}

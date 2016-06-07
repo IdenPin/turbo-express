@@ -1,0 +1,10 @@
+@charset "utf-8";
+@import "volunteer-prediction-common";
+.volunteer-btn{
+  display: inherit!important;
+  cursor: pointer!important;
+  &:hover{
+    color: #fff!important;
+    cursor: pointer!important;
+  }
+}
