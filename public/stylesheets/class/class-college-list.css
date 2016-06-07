@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*
+高考课堂列表
+*/
+.class-college-list .data-list {
+  width: 1020px;
+  font-size: 14px;
+  overflow: hidden;
+}
+.class-college-list .data-list .list {
+  float: left;
+  margin-right: 20px;
+}
+.class-college-list .data-list .class-avatar {
+  margin-top: 10px;
+  width: 235px;
+  height: 140px;
+  background-color: #f1f1f1;
+  font-family: "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, Verdana, "Microsoft Yahei", sans-serif;
+}
+.class-college-list .data-list .txt1 {
+  color: #333333;
+  margin-top: 10px;
+}
+.class-college-list .data-list .txt2 {
+  color: #666;
+}

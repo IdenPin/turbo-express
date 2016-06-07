@@ -1,0 +1,195 @@
+.banner {
+  width: 100%;
+  height: 204px;
+  background-color: #60b2d7;
+  background-position: center center;
+}
+.banner .count {
+  position: relative;
+}
+.banner .count .box {
+  position: absolute;
+  left: 250px;
+  top: 80px;
+  font-size: 18px;
+  color: #fff;
+}
+.banner .count .box .line {
+  margin: 0 10px;
+  font-size: 36px;
+}
+.banner .count .box .num1, .banner .count .box .num2 {
+  font-size: 36px;
+  display: inline-block;
+}
+
+.interactive-container .h2-t {
+  color: #333333;
+  font-size: 18px;
+  margin: 0;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.interactive-container .interactive {
+  width: 735px;
+  float: left;
+}
+.interactive-container .interactive .active {
+  border-bottom: 2px solid #40bca0;
+  line-height: 36px;
+}
+.interactive-container .interactive .toggle-title {
+  display: inline-block;
+}
+.interactive-container .interactive .l {
+  margin: 0 5px;
+}
+.interactive-container .pagination {
+  margin-top: 20px;
+}
+.interactive-container .list {
+  padding: 0;
+  font-size: 14px;
+  min-height: 480px;
+}
+.interactive-container .list li {
+  position: relative;
+  margin: 18px 0;
+  padding-bottom: 20px;
+  display: block;
+  clear: both;
+}
+.interactive-container .list li .avatar-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.interactive-container .list li .user-name {
+  color: #53d094;
+  position: absolute;
+  top: 15px;
+  left: 85px;
+}
+.interactive-container .list li .time {
+  color: #999;
+  margin-left: 30px;
+}
+.interactive-container .list li .title {
+  position: absolute;
+  top: 43px;
+  left: 85px;
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.interactive-container .list li .content {
+  position: relative;
+  margin-left: 90px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  width: 648px;
+  padding: 10px 15px 15px;
+  border: 1px solid #dcdcdc;
+  line-height: 22px;
+  border-radius: 2px;
+}
+.interactive-container .list li .content .txt {
+  color: #666;
+}
+.interactive-container .list li .content .eg {
+  margin: 0;
+  line-height: 26px;
+  color: #f3981b;
+}
+.interactive-container .list li .content .triangle {
+  position: absolute;
+  background-color: #fff;
+  top: -7px;
+  left: 20px;
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 12px;
+  height: 12px;
+  border-left: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+}
+.interactive-container .list li .yes-or-no {
+  position: absolute;
+  top: 84px;
+  left: 12px;
+  border: 1px solid #f3981b;
+  padding: 2px 4px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+.interactive-container .hot-resolve {
+  margin-left: 30px;
+  float: left;
+  width: 235px;
+}
+.interactive-container .hot-resolve .h2-t span {
+  width: 75px;
+  border-bottom: 2px solid #40bca0;
+  line-height: 36px;
+  height: 40px;
+  display: block;
+}
+.interactive-container .hot-resolve .key-word {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.interactive-container .hot-resolve .key-word .c {
+  padding: 6px 12px;
+  display: block;
+  float: left;
+  margin: 2px 3px;
+  border-radius: 3px;
+}
+.interactive-container .hot-resolve .key-word .c1 {
+  background-color: #ddeef5;
+  color: #67b3d2;
+}
+.interactive-container .hot-resolve .key-word .c2 {
+  background-color: #fffbe6;
+  color: #ffeb80;
+}
+.interactive-container .hot-resolve .key-word .c3 {
+  background-color: #e8f8e7;
+  color: #76d571;
+}
+.interactive-container .hot-resolve .key-word .c4 {
+  background-color: #fce8dd;
+  color: #f08950;
+}
+.interactive-container .hot-resolve .key-word .c5 {
+  background-color: #ffb59e;
+  color: #ff4005;
+}
+.interactive-container .hot-resolve .key-word .c6 {
+  background-color: #e5eaf8;
+  color: #6c89d8;
+}
+.interactive-container .hot-resolve .title-list {
+  clear: both;
+  padding: 10px 0 0 0;
+}
+.interactive-container .hot-resolve .title-list li {
+  line-height: 40px;
+  border-bottom: 1px dashed #ccc;
+}
+.interactive-container .hot-resolve .title-list li a {
+  margin-left: 10px;
+  color: #333333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* for internet explorer */
+  overflow: hidden;
+  width: 100%;
+  display: block;
+}

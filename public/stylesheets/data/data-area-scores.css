@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/*
+地区批次线
+*/
+.search-box {
+  margin: 30px 60px 30px 190px;
+}
+
+.content {
+  border: 1px solid #ccc;
+  padding: 20px 10px 20px 20px;
+  margin-top: 40px;
+}
+.content .choose-option {
+  border-radius: 2px;
+}
+.content .choose-option .tips {
+  color: #fe3430;
+}
+.content .choose-option dl {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.content .choose-option dl dt {
+  width: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+.content .choose-option dl dt .all {
+  line-height: 24px;
+  background-color: #d80c18;
+  color: #fff;
+  padding: 0 6px;
+  display: inline-block;
+  border-radius: 2px;
+}
+.content .choose-option dl dd {
+  width: 834px;
+  display: inline-block;
+}
+.content .choose-option dl dd span {
+  margin: 3px 5px;
+  padding: 0 6px;
+  line-height: 20px;
+  cursor: pointer;
+  border-radius: 2px;
+  float: left;
+  display: block;
+}
+.content .choose-option dl dd span:hover {
+  background-color: #d80c18;
+  color: #fff;
+}
+.content .choose-option dl dd .active {
+  background-color: #d80c18;
+  color: #fff;
+}
+
+.area-scores-container {
+  margin: 30px auto;
+}
+.area-scores-container table {
+  width: 100%;
+}
+.area-scores-container th {
+  background: #f5f5f5;
+}
+.area-scores-container td, .area-scores-container th {
+  border: 1px solid #f1f1f1;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.area-scores-container .area-scores-content h1 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,0 +1,141 @@
+.banner {
+  background: #ec8887 url("../../img/class-college-banner.png") center center;
+  width: 100%;
+  height: 320px;
+}
+
+.h2-t {
+  margin-top: 0;
+}
+
+.login-txt {
+  font-size: 14px;
+  color: #666;
+  margin-left: 30px;
+}
+.login-txt a {
+  color: #d80c18;
+}
+.login-txt a:hover {
+  color: #f3981b;
+}
+
+.school-main {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.list-header {
+  float: left;
+  width: 235px;
+  height: 375px;
+  margin-right: 20px;
+}
+
+.list-header-bg1 {
+  background: #f1f1f1 url("../../img/video-bg-zyjt.jpg");
+}
+
+.list-body .list-ul {
+  width: 1040px;
+}
+.list-body .list-item {
+  float: left;
+  margin: 0 20px 10px 0;
+  width: 235px;
+  overflow: hidden;
+}
+.list-body .list-item img {
+  width: 235px;
+  height: 142px;
+  background-color: #f1f1f1;
+}
+.list-body .list-item p.name {
+  height: 38px;
+  line-height: 38px;
+  text-align: left;
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+.list-body .list-item .list-links:hover,
+.list-body .list-item .list-links:hover p {
+  color: #d80c18;
+}
+
+.content-r .list-item p.name {
+  color: #333;
+  font-size: 14px;
+  height: 24px;
+  line-height: 24px;
+}
+.content-r .list-item p.teacher {
+  color: #999;
+  font-size: 14px;
+  height: 18px;
+  line-height: 18px;
+  margin: 0;
+}
+.content-r img {
+  background-color: #f1f1f1;
+}
+
+.page-nav {
+  height: 26px;
+}
+.page-nav .page-nav-ul {
+  float: right;
+}
+.page-nav .page-nav-ul .page-nav-item {
+  margin-right: 8px;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.page-nav .page-nav-ul .active {
+  border: 1px solid #d80c18;
+  color: #d80c18;
+}
+
+.w1000 {
+  font-family: "Hiragino Sans GB","Helvetica Neue",Helvetica,Arial,Verdana,"Microsoft Yahei",sans-serif;
+}
+.w1000 .title-name {
+  color: #d80c18;
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+  margin-top: 0;
+  border-bottom: 1px solid #eaeaea;
+  font-size: 20px;
+}
+.w1000 .top-teach-team-list {
+  overflow: hidden;
+  width: 1060px;
+}
+.w1000 .col-comm {
+  float: left;
+  margin-bottom: 80px;
+}
+.w1000 .col-comm .avatar-img {
+  margin: 20px 75px 10px 0;
+  width: 190px;
+  height: 215px;
+  background-color: #f1f1f1;
+}
+.w1000 .col-comm .no-mr {
+  margin-right: 0;
+}
+.w1000 .col-comm p {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.w1000 .col-comm .txt1, .w1000 .col-comm .txt2 {
+  font-size: 14px;
+  color: #666;
+}
