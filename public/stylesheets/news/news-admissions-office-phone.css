@@ -1,0 +1,90 @@
+._ml45 {
+  margin-left: -45px !important;
+}
+
+.select-box {
+  padding: 10px 0;
+  clear: both;
+}
+.select-box .content {
+  height: auto;
+  border: 1px solid #e8e8e8;
+  padding: 20px 29px;
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 99;
+  overflow: hidden;
+}
+.select-box .tips {
+  color: #d80c18;
+}
+.select-box .comm-select {
+  padding: 10px 0;
+}
+.select-box .comm-select .left-title {
+  line-height: 24px;
+  float: left;
+  width: 90px;
+}
+.select-box .comm-select .left-title h2 {
+  font-size: 14px;
+  display: inline-block;
+  padding: 0;
+  margin: 0 5px 0 0;
+}
+.select-box .comm-select .left-title .all {
+  padding: 3px 5px;
+  border-radius: 1px;
+  margin: 0 5px 5px 5px;
+  cursor: pointer;
+}
+.select-box .comm-select .hover, .select-box .comm-select .left-title .active, .select-box .comm-select .left-title .active:hover, .select-box .comm-select .right-item li:hover, .select-box .comm-select .active {
+  color: #fff;
+  background-color: #d80c18;
+}
+.select-box .comm-select .right-item {
+  padding: 0;
+  width: 850px;
+  float: left;
+}
+.select-box .comm-select .right-item li {
+  padding: 2px 5px;
+  border-radius: 1px;
+  margin: 0 6px 6px 0;
+  float: left;
+  cursor: pointer;
+}
+.select-box .school-data-list {
+  margin-bottom: 30px;
+}
+.select-box .school-data-list .item {
+  width: 230px;
+  height: 90px;
+  border: 1px solid #D7D7D7;
+  border-radius: 2px;
+  float: left;
+  margin: 30px 10px 0px 10px;
+}
+.select-box .school-data-list .item .icon {
+  width: 42px;
+  height: 42px;
+  margin: 24px;
+  float: left;
+  background: url("../../img/icon-zgk-phone.png");
+}
+.select-box .school-data-list .item .text-content {
+  width: 138px;
+  height: 90px;
+  overflow: hidden;
+  float: left;
+}
+.select-box .school-data-list .item .text-content > span {
+  display: block;
+  height: 45px;
+  width: 138px;
+  overflow: hidden;
+  font-size: 16px;
+}
+.select-box .school-data-list .item .text-content > span:first-child {
+  line-height: 60px;
+}

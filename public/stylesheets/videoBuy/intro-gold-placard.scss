@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import "../variables";
+
+/*
+金榜登科介绍
+========================================
+*/
+.banner {
+  background: #6aa4d2 url('../../img/video-buy-banner.jpg');
+  width: 100%;
+  height: 202px;
+  //background-position: center center;
+  .count-down {
+    position: relative;
+    .box {
+      position: absolute;
+      left: 550px;
+      top: 70px;
+      font-size: 20px;
+      color: #fff;
+      .date {
+        font-size: 36px;
+        display: inline-block;
+        height: 51px;
+        width: 35px;
+        margin: 0 5px;
+        text-align: center;
+      }
+    }
+  }
+}
+.container{
+  width: 860px;
+  margin: 10px auto 150px;
+  .title{
+    h3{
+      text-align: center;
+      color: $mainColor;
+      font-size: 20px;
+      font-weight: normal;
+    }
+    .go-target{
+      display: block;
+      width: 81px;
+      height: 35px;
+      line-height: 35px;
+      text-align: center;
+      color: #fff;
+      background-color: #d80c18;
+      border-radius: 3px;
+      position: relative;
+      left: 740px;
+      top: -35px;
+    }
+  }
+  .content{
+    h4{
+      font-size: 14px;
+      color: $mainColor;
+    }
+    p{
+      line-height: 26px;
+      color: #333;
+    }
+    img{
+      margin-bottom: 15px;
+      max-width: 860px;
+    }
+  }
+}
+

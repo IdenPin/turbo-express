@@ -1,0 +1,219 @@
+@charset "utf-8";
+@import "../variables";
+
+//在线互动banner
+.banner {
+  width: 100%;
+  height: 204px;
+  background-color: #60b2d7;
+  background-position: center center;
+  .count {
+    position: relative;
+    .box {
+      position: absolute;
+      left: 250px;
+      //left: 553px;
+      //top:50px;
+      top: 80px;
+      font-size: 18px;
+      color: #fff;
+      .line {
+        margin: 0 10px;
+        font-size: 36px;
+      }
+      .num1, .num2 {
+        font-size: 36px;
+        display: inline-block;
+      }
+    }
+  }
+}
+//在线互动详情模块
+.interactive-container {
+  .h2-t {
+    color: $fontBaseColor;
+    font-size: 18px;
+    margin: 0;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .interactive {
+    .active {
+      border-bottom: 2px solid $greenColor;
+      line-height: 36px;
+    }
+    width: 735px;
+    float: left;
+    .toggle-title {
+      display: inline-block;
+    }
+    .l {
+      margin: 0 5px;
+    }
+  }
+  //数据渲染部分UI
+  .pagination {
+    margin-top: 20px;
+  }
+  .list {
+    padding: 0;
+    font-size: 14px;
+    min-height: 480px;
+    li {
+      position: relative;
+      margin: 18px 0;
+      padding-bottom: 20px;
+      display: block;
+      //min-height: 210px;
+      clear: both;
+      .avatar-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+      }
+      .user-name {
+        color: $fadeGreenColor;
+        position: absolute;
+        top: 15px;
+        left: 85px;
+      }
+      .time {
+        color: #999;
+        margin-left: 30px;
+      }
+      .title {
+        position: absolute;
+        top: 43px;
+        left: 85px;
+        white-space: nowrap;
+        width: 90%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .content {
+        //position: absolute;
+        //top:80px;
+        //left: 85px;
+        position: relative;
+        margin-left: 90px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        width: 648px;
+        padding: 10px 15px 15px;
+        border: 1px solid #dcdcdc;
+        line-height: 22px;
+        border-radius: 2px;
+        .txt {
+          color: #666;
+        }
+        .eg {
+          margin: 0;
+          line-height: 26px;
+          color: $yellowColor;
+        }
+        .triangle {
+          position: absolute;
+          background-color: #fff;
+          top: -7px;
+          left: 20px;
+          filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+          width: 12px;
+          height: 12px;
+          border-left: 1px solid #ccc;
+          border-top: 1px solid #ccc;
+        }
+      }
+      .yes-or-no {
+        position: absolute;
+        top: 84px;
+        left: 12px;
+        border: 1px solid $yellowColor;
+        padding: 2px 4px;
+        border-radius: 2px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .hot-resolve {
+    margin-left: 30px;
+    float: left;
+    width: 235px;
+    .h2-t {
+      span {
+        width: 75px;
+        border-bottom: 2px solid $greenColor;
+        line-height: 36px;
+        height: 40px;
+        display: block;
+      }
+    }
+    .key-word {
+      //关键字颜色集合
+      $c1: #ddeef5;
+      $c2: #fffbe6;
+      $c3: #e8f8e7;
+      $c4: #fce8dd;
+      $c5: #ffb59e;
+      $c6: #e5eaf8;
+      margin-top: 15px;
+      font-size: 14px;
+      .c {
+        padding: 6px 12px;
+        display: block;
+        float: left;
+        margin: 2px 3px;
+        border-radius: 3px;
+      }
+      .c1 {
+        background-color: $c1;
+        color: darken($c1, 30%);
+      }
+      .c2 {
+        background-color: $c2;
+        color: darken($c2, 20%);
+      }
+      .c3 {
+        background-color: $c3;
+        color: darken($c3, 30%);
+      }
+      .c4 {
+        background-color: $c4;
+        color: darken($c4, 30%);
+      }
+      .c5 {
+        background-color: $c5;
+        color: darken($c5, 30%);
+      }
+      .c6 {
+        background-color: $c6;
+        color: darken($c6, 30%);
+      }
+    }
+    .title-list {
+      clear: both;
+      padding: 10px 0 0 0;
+      li {
+        line-height: 40px;
+        border-bottom: 1px dashed #ccc;
+        a {
+          margin-left: 10px;
+          color: $fontBaseColor;
+          white-space: nowrap;
+          text-overflow: ellipsis; /* for internet explorer */
+          overflow: hidden;
+          width: 100%;
+          display: block;
+        }
+      }
+    }
+
+  }
+}
+

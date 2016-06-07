@@ -1,0 +1,191 @@
+.comm-sass {
+  background: #fff url("../../img/login-bg.png") center center;
+  height: 700px;
+}
+.comm-sass .w50 {
+  width: 50% !important;
+}
+.comm-sass .w40 {
+  width: 43% !important;
+}
+.comm-sass .btn-code {
+  outline: none;
+  border: none;
+  background-color: #d80c18;
+  border-radius: 40px;
+  line-height: 20px;
+  color: #fff;
+  margin-left: 10px;
+}
+.comm-sass .w1000 {
+  position: relative;
+}
+.comm-sass .logo {
+  margin-right: 30px;
+  padding-top: 35px;
+  display: inline-block;
+}
+.comm-sass .go-home {
+  color: #555;
+  font-size: 14px;
+  text-decoration: none;
+}
+.comm-sass .go-home .icon-home {
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+.comm-sass .title {
+  height: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+.comm-sass .title .tab {
+  line-height: 45px;
+  font-size: 20px;
+  width: 50%;
+  display: block;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+.comm-sass .title .active {
+  position: relative;
+  top: -2px;
+  border-bottom: 2px solid #d80c18;
+  color: #d80c18;
+}
+.comm-sass .form-group {
+  position: relative;
+}
+.comm-sass .form-group .comm {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px 0 30px;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-radius: 40px;
+  outline: none;
+}
+.comm-sass .form-group i {
+  position: absolute;
+}
+.comm-sass .btn-comm {
+  width: 100%;
+  border-radius: 40px;
+  text-align: center;
+  height: 40px;
+  background-color: #d80c18;
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+.comm-sass .btn-comm:hover {
+  background-color: #f32430;
+  transition: all 1s;
+}
+.comm-sass .nav-link {
+  height: 20px;
+  margin-bottom: 10px;
+}
+.comm-sass .nav-link .forget-psd {
+  display: inline-block;
+  float: right;
+  margin-bottom: 30px;
+  color: #666;
+}
+.comm-sass .nav-link .tips {
+  display: inline-block;
+  color: #e24d39;
+}
+
+.login-register-box {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  width: 344px;
+  border: 1px solid #e4e3e3;
+  border-radius: 10px;
+  padding: 20px 20px 30px 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.login-register-box .login-input .icon-person, .login-register-box .login-input .icon-key {
+  top: 13px;
+  left: 12px;
+}
+.login-register-box .place-grade {
+  border: 1px solid #E5E5E5;
+  border-radius: 35px;
+  overflow: hidden;
+}
+.login-register-box .place-grade select {
+  border: none;
+}
+.login-register-box .register-input .icon-person, .login-register-box .register-input .icon-right, .login-register-box .register-input .icon-key {
+  top: 13px;
+  left: 12px;
+}
+.login-register-box .login-reg-content {
+  display: none;
+}
+.login-register-box .login-reg-content.active {
+  display: block;
+}
+
+.forget-psd-title {
+  display: none;
+}
+.forget-psd-title span {
+  line-height: 45px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  position: relative;
+  top: -2px;
+  color: #333333;
+}
+
+.find-pwd-box {
+  position: absolute;
+  top: 180px;
+  right: 0;
+  width: 280px;
+  border: 1px solid #e4e3e3;
+  border-radius: 10px;
+  padding: 20px 20px 30px 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.find-pwd-box .title {
+  height: 45px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 30px;
+}
+.find-pwd-box .title span {
+  line-height: 45px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+  position: relative;
+  top: -2px;
+  color: #333333;
+}
+.find-pwd-box .find-input .icon-person, .find-pwd-box .find-input .icon-right, .find-pwd-box .find-input .icon-key {
+  top: 13px;
+  left: 12px;
+}
+
+.footer {
+  background-color: #fff;
+  text-align: center;
+  font-size: 14px;
+  color: #a6a4a4;
+  margin: 30px;
+}

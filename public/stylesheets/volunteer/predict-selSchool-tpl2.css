@@ -1,0 +1,1333 @@
+@charset "UTF-8";
+.fixed-control {
+  position: fixed;
+  left: 16px;
+  width: 565px;
+}
+
+.fixed-top {
+  width: 565px !important;
+}
+.fixed-top tbody {
+  display: block;
+  margin-top: 40px;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  background-color: #fff !important;
+}
+
+.volunteer-banner {
+  height: 204px;
+}
+.volunteer-banner img {
+  width: 100%;
+  height: 204px;
+  background-color: #5a9bd4;
+}
+
+.volunteer-main .sidebar {
+  padding: 150px 0 0;
+  position: relative;
+}
+.volunteer-main .sidebar li a {
+  font-size: 16px;
+  color: #333;
+  font-weight: normal;
+}
+.volunteer-main .sidebar li.active a {
+  font-weight: bold;
+}
+.volunteer-main .sidebar .top-bg {
+  position: absolute;
+  top: 15px;
+  left: 45%;
+  width: 109px;
+  height: 109px;
+  margin: 0 0 0 -54px;
+}
+
+.type-ul {
+  width: 688px;
+}
+
+.content-main {
+  float: left;
+  box-sizing: border-box;
+  line-height: 24px;
+  padding-bottom: 40px;
+}
+.content-main #content-a {
+  border: 1px solid #f1f1f1;
+}
+.content-main .level {
+  position: relative;
+  font-size: 14px;
+  height: auto !important;
+  padding: 6px 30px 10px;
+}
+.content-main .level .choose-first-level .subject-first, .content-main .level .choose-second-level .subject-first {
+  margin-right: 25px;
+}
+.content-main .level .choose-first-level input[name=subject-level-wl], .content-main .level .choose-first-level input[name=subject-level-xc], .content-main .level .choose-second-level input[name=subject-level-wl], .content-main .level .choose-second-level input[name=subject-level-xc] {
+  margin-left: 7px;
+  display: inline-block;
+}
+.content-main .level .fuck-mask {
+  display: none;
+  height: 80px;
+  width: 100%;
+  background: #FFF;
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  cursor: not-allowed;
+}
+.content-main .choose-table {
+  display: none;
+  margin-top: 10px;
+  text-align: center;
+}
+.content-main .choose-table a {
+  text-decoration: underline;
+}
+.content-main .t-bg {
+  width: 758px;
+  height: 102px;
+  background: url("../../img/volunteer-content-banner.png");
+  margin: 0 auto;
+  text-align: center;
+  line-height: 102px;
+  font-size: 24px;
+  color: #d80c18;
+}
+
+.btn-start {
+  background-color: #d80c18;
+}
+.btn-start:hover {
+  background-color: #B1191A;
+}
+
+.volunteer-form {
+  width: 400px;
+  margin: 28px auto 0;
+  position: relative;
+}
+.volunteer-form #tips {
+  position: absolute;
+  z-index: 99;
+  bottom: 28px;
+  width: 400px;
+  left: -15px;
+}
+.volunteer-form .small-tips {
+  border: none !important;
+  margin-top: 35px;
+}
+.volunteer-form .form-group {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+.volunteer-form .form-group .control-label {
+  font-size: 16px;
+  color: #333;
+  font-weight: normal;
+  padding: 7px 5px 0 0;
+}
+.volunteer-form .form-group .col-sm-9 {
+  margin-top: 2px;
+  padding-left: 0;
+}
+.volunteer-form .form-group .col-sm-9 .form-control {
+  border: none;
+  box-shadow: none;
+  font-size: 16px;
+  height: 33px;
+}
+.volunteer-form .form-group .col-sm-9 .type-radio {
+  margin: 5px 14px 0;
+  font-size: 16px;
+  color: #333;
+  font-weight: normal;
+}
+.volunteer-form .form-group .btn {
+  border: none;
+  line-height: 40px;
+  padding: 0;
+  color: #fff;
+  font-size: 20px;
+}
+.volunteer-form .btn-form {
+  border: none;
+  position: relative;
+}
+.volunteer-form .btn-form .alert-danger {
+  display: none;
+  position: absolute;
+  top: -67px;
+  left: 0;
+  width: 100%;
+  outline: none;
+}
+.volunteer-form .tips-txt {
+  font-size: 14px;
+  color: #666;
+}
+
+.content-b-header {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.content-b-header .warm-tips {
+  color: #d80c18;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.content-b-header .title {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #666;
+  font-weight: normal;
+  width: 1000px;
+}
+.content-b-header .school-title span {
+  margin-right: 35px;
+}
+.content-b-header .ul {
+  width: 400px;
+  margin: 15px 0;
+}
+.content-b-header .ul li {
+  float: left;
+  width: 230px;
+  line-height: 25px;
+  color: #666;
+  font-size: 16px;
+}
+.content-b-header .buttons {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  float: right;
+}
+.content-b-header .buttons .btn {
+  margin-right: 10px;
+}
+
+.line-bottom {
+  border-bottom: 2px solid #d80c18;
+  margin: 0 0 15px;
+}
+
+.content-b-body .table {
+  margin-bottom: 0 !important;
+}
+.content-b-body .title {
+  margin-bottom: 20px;
+}
+.content-b-body .volunteer-result-txt {
+  margin: 30px 0 20px;
+}
+.content-b-body .volunteer-result-txt strong {
+  color: #f49e28;
+  font-size: 18px;
+}
+.content-b-body .volunteer-result-txt .txt {
+  color: #666;
+  font-size: 14px;
+}
+.content-b-body .btn {
+  width: 60%;
+  margin: 20px auto 50px;
+}
+.content-b-body .no-data-tips {
+  display: none;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  font-size: 14px;
+  border: 1px solid #f1f1f1;
+}
+
+.school-info {
+  position: relative;
+  left: 0;
+  top: 0;
+  padding: 0 0 6px;
+}
+.school-info .icon-heart {
+  position: absolute;
+  top: 17px;
+  left: 10px;
+}
+.school-info .name {
+  text-align: left;
+  padding: 0 0 0 44px;
+  margin: 0 0 5px;
+  line-height: 20px;
+}
+.school-info .name a {
+  color: #333;
+}
+.school-info .name a:hover {
+  color: #d80c18;
+}
+.school-info .list-type {
+  padding: 0 0 0 44px;
+  text-align: left;
+  line-height: 20px;
+}
+.school-info .list-type span {
+  padding: 1px 3px;
+  border-radius: 1px;
+  margin-right: 2px;
+}
+.school-info .list-type .type-985 {
+  color: #d80c18;
+  border: 1px solid #d80c18;
+}
+.school-info .list-type .type-211 {
+  color: #e8380d;
+  border: 1px solid #e8380d;
+}
+.school-info .list-type .type-yan {
+  color: #ed6c00;
+  border: 1px solid #ed6c00;
+}
+.school-info .list-type .type-zi {
+  color: #ff9650;
+  border: 1px solid #ff9650;
+}
+.school-info .list-type .type-guo {
+  color: #ffc286;
+  border: 1px solid #ffc286;
+}
+.school-info .list-type .type-zhuo {
+  color: #fbcc9d;
+  border: 1px solid #fbcc9d;
+}
+
+.content-b-body .objective-btn {
+  width: 60%;
+  margin: 0 auto;
+  padding: 6px 5px;
+}
+
+#reported-content-a .into-list {
+  height: 69px;
+  border: 1px solid #e8e8e8;
+  background: #f5f5f5;
+  position: relative;
+  margin-bottom: 11px;
+}
+#reported-content-a .into-list strong {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  font-size: 18px;
+}
+#reported-content-a .into-list .info {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  font-size: 14px;
+}
+#reported-content-a .into-list .btn {
+  position: absolute;
+  right: 20px;
+  top: 13px;
+}
+#reported-content-a .into-list .btn-primary {
+  border: none;
+  height: 42px;
+  line-height: 23px;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+#reported-content-a .into-list .recommend-icon {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  font-size: 14px;
+  right: 8px;
+  top: 5px;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #F5A623;
+  box-shadow: -1px 1px 4px rgba(119, 58, 58, 0.19);
+  border: 1px solid #F57E23;
+}
+
+#reported-content-c .volunteer-school-info .form-inline {
+  width: 322px;
+  height: 40px;
+  border: 1px solid #e3e3e3;
+  padding: 0;
+  margin: 0 auto;
+}
+#reported-content-c .volunteer-school-info .form-inline .school-txt {
+  width: 239px;
+  height: 38px;
+  float: left;
+  border: none;
+}
+#reported-content-c .volunteer-school-info .form-inline .btn {
+  float: left;
+  width: 81px;
+  height: 38px;
+  background: #d80c18;
+  color: #FFF;
+  border: none;
+  border-radius: 0;
+}
+#reported-content-c .volunteer-school-info .info {
+  text-align: left;
+  line-height: 24px;
+  padding: 10px 0 0 18px;
+}
+
+.btn-primary {
+  background-color: #d80c18 !important;
+}
+.btn-primary:hover {
+  background-color: #B1191A !important;
+}
+
+.volunteer-table {
+  width: 100%;
+}
+
+.volunteer-table th, .volunteer-table td {
+  border: 1px solid #f1f1f1;
+}
+
+.volunteer-table th {
+  height: 40px;
+  background: #f5f5f5;
+  color: #444;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.volunteer-table .item1 {
+  min-height: 240px;
+  line-height: 240px;
+  text-align: center;
+  width: 89px;
+}
+
+.volunteer-table .school-item {
+  width: 365px;
+}
+
+.volunteer-table .item3 {
+  width: 391px;
+}
+
+.volunteer-table .item4 {
+  width: 150px;
+}
+
+.volunteer-table .result-info-details {
+  padding: 0 20px 20px;
+  overflow: hidden;
+  line-height: 22px;
+  color: #666;
+}
+
+.search-content {
+  text-align: center;
+  margin: 40px 0 45px;
+}
+
+.search-content input[type="button"],
+.sel-small-btn[type="button"] {
+  width: 250px;
+  background: #fff;
+  border: 1px solid #d80c18;
+  border-radius: 5px;
+  color: #d80c18;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.search-content input[type="button"]:hover,
+.sel-small-btn[type="button"]:hover {
+  background: #d80c18;
+  border: 1px solid #d80c18;
+  color: #fff;
+}
+
+.volunteer-table .tips {
+  width: 306px;
+  margin: 20px auto;
+  padding: 8px 18px 3px;
+}
+
+.volunteer-table .item4 {
+  text-align: center;
+}
+
+.volunteer-table .item4 label {
+  display: block;
+  clear: both;
+}
+
+.volunteer-table .item4 p {
+  color: #999;
+}
+
+.section-title {
+  margin-top: 20px;
+}
+
+.specialty li {
+  overflow: hidden;
+  clear: both;
+  display: block;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.specialty li .num {
+  float: left;
+  line-height: 35px;
+  font-size: 14px;
+  color: #444;
+  margin: 0 10px;
+  width: 45px;
+  text-align: center;
+}
+
+.specialty li .input {
+  float: left;
+  text-align: left;
+  width: 211px;
+  height: 35px;
+}
+
+.specialty li .input input {
+  width: 212px;
+  height: 35px;
+  background: #fff;
+  padding: 0 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.specialty li .sel-num {
+  float: left;
+}
+
+.specialty li .sel-num button {
+  display: block;
+  text-decoration: none;
+  width: 66px;
+  height: 35px;
+  line-height: 35px;
+  background: #fff;
+  font-size: 12px;
+  padding: 0 8px;
+  border: 1px solid #d80c18;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.specialty li .sel-num button:hover {
+  background: #d80c18;
+  color: #fff;
+}
+
+.error-tips {
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 45px;
+  background-color: #e24d39;
+  color: #fff;
+  border-radius: 3px;
+  width: 78%;
+}
+
+.error-tips2 {
+  padding: 10px;
+  text-align: center;
+  color: #000;
+  width: 100%;
+  margin: 0 auto 20px;
+}
+
+#volunteer-flow3-btn {
+  margin: 0 auto;
+  display: block;
+  float: none;
+}
+
+#yzmDreamSchool {
+  width: 110px;
+  height: 47px;
+}
+
+.school-table.specialty-body {
+  margin-bottom: 20px;
+  height: 370px;
+  overflow-y: auto;
+}
+
+.school-table.specialty-body table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.school-table.specialty-body td, .school-table.specialty-body th {
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  font-size: 14px;
+}
+.school-table.specialty-body td a, .school-table.specialty-body th a {
+  color: #e24333;
+  cursor: pointer;
+}
+.school-table.specialty-body tr {
+  height: 40px;
+  line-height: 40px;
+}
+.school-table.specialty-body thead tr {
+  background-color: #f5f5f5;
+}
+.school-table.specialty-body tbody tr.active {
+  background-color: #f5f5f5;
+}
+.school-table.specialty-body td.tl {
+  text-align: left;
+  padding: 0 0 0 10px;
+}
+
+.school-table.specialty-body td {
+  color: #555;
+  max-width: 400px;
+}
+.school-table.specialty-body th {
+  color: #444;
+}
+
+.specialty-layer {
+  height: 410px;
+  margin-top: -205px;
+}
+
+.print-result-info {
+  padding: 10px 20px;
+  overflow: hidden;
+  line-height: 22px;
+  color: #666;
+  text-align: left;
+}
+.print-result-info p {
+  text-indent: 0;
+}
+
+.specialty-list-info {
+  padding: 10px 20px;
+  overflow: hidden;
+  color: #666;
+  text-align: left;
+}
+.specialty-list-info p {
+  text-indent: 0;
+  line-height: 40px;
+}
+
+.school-list-col,
+.enrollmentSchool {
+  float: left;
+}
+
+.col-list {
+  margin-left: 80px;
+  line-height: 48px;
+  position: relative;
+  top: -12px;
+}
+
+.col-list2 {
+  margin-left: 380px;
+}
+
+#exchange .col-list2 {
+  margin-left: 190px;
+}
+
+.t-content .tc {
+  text-align: center;
+  text-indent: 0;
+}
+
+.eva-text p {
+  text-indent: 2em;
+  line-height: 26px;
+}
+
+#eva-txt {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #74bbd9;
+  font-size: 20px;
+  width: 362px;
+}
+
+.volunteer-title {
+  text-align: center;
+  font-size: 22px;
+  margin: 20px 0 40px;
+}
+
+.volunteer-special-tips {
+  font-size: 14px;
+  color: #D80C18;
+  margin-bottom: 6px;
+  line-height: 34px;
+  display: none;
+}
+
+.w725 {
+  width: 725px;
+}
+
+.sel-specialty-list-tips {
+  font-size: 14px;
+  color: #898989;
+  text-align: center;
+  margin: 45px auto;
+}
+
+.allocate-tips {
+  margin: 30px 0;
+}
+
+.sel-result-title {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.sel-result-title .school-t {
+  float: left;
+  margin: 0;
+  line-height: 34px;
+}
+
+.school-item-body {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.sel-small-btn[type="button"] {
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 85px;
+  height: 34px;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+.volunteer-btn {
+  background: #d80c18;
+  color: #fff;
+  display: block;
+  margin: 30px auto;
+  width: 190px;
+  height: 50px;
+}
+.volunteer-btn:hover {
+  background: #d80c18;
+  color: #fff;
+}
+
+.volunteer-table .txt {
+  text-align: center;
+  height: 37px;
+  line-height: 37px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+}
+
+.volunteer-table .specialty-list {
+  width: 360px;
+  margin: 0 auto;
+  padding: 5px 0 15px;
+}
+
+.volunteer-table .specialty-list2 {
+  width: 360px;
+  margin: 0 auto;
+  padding: 5px 0 15px;
+}
+
+.volunteer-table .area-tips {
+  padding: 20px 0;
+  line-height: 24px;
+  color: #666;
+}
+
+.volunteer-table .radio-sel label {
+  margin: 0 10px;
+}
+
+.form-control-btn {
+  position: relative;
+}
+
+#tips {
+  display: none;
+  position: absolute;
+  top: -70px;
+  width: 100%;
+  text-align: center;
+}
+
+.sel-school-table {
+  clear: both;
+}
+.sel-school-table .table {
+  width: 100%;
+}
+.sel-school-table th {
+  background: #f5f5f5;
+}
+.sel-school-table td, .sel-school-table th {
+  border: 1px solid #f1f1f1;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.school-type-title {
+  font-size: 16px;
+  color: #d80c18;
+  margin: 5px 0;
+}
+
+.sel-school-table {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.partCheckedLabel {
+  display: none;
+}
+
+.result-info-details {
+  display: none;
+}
+
+.tab-alert-toggle {
+  display: none;
+}
+.tab-alert-toggle span {
+  height: 34px;
+  width: 85px;
+  float: right;
+  line-height: 34px;
+  color: #d80c18;
+  border: 1px solid #d80c18;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.tab-alert-toggle .active {
+  background-color: #d80c18;
+  color: #fff;
+}
+
+#province-alert-select {
+  margin-bottom: 10px;
+  width: 126px;
+  height: 30px !important;
+  padding: 0 8px;
+}
+
+.select-container {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+.select-container input#query {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  resize: none;
+  outline: 0;
+  padding: 0 10px;
+  width: 420px;
+  height: 32px;
+  border: 2px solid #d80c18;
+  color: #666;
+  background: #fff;
+  margin: 0 auto 15px 66px;
+}
+.select-container a.go {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  width: 83px;
+  height: 32px;
+  background: #d80c18;
+}
+.select-container a.go span {
+  position: relative;
+  top: 6px;
+}
+
+.table tr {
+  vertical-align: middle;
+}
+.table tr th, .table tr td {
+  vertical-align: middle !important;
+}
+.table tr .choose {
+  border: 1px solid #d80c18;
+  padding: 2px 5px;
+  height: 22px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+.table tr .no-choose {
+  border: 1px solid #ccc;
+  color: #ccc;
+  padding: 2px 5px;
+  height: 22px;
+  line-height: 21px;
+  text-align: center;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+.volun {
+  display: inline-block;
+  height: 21px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 2px;
+  width: 28px;
+  margin: 0 10px;
+}
+
+.volun-chong {
+  color: #d80c18;
+  border: 1px solid #d80c18;
+}
+
+.volun-wen {
+  color: #ed8946;
+  border: 1px solid #ed8946;
+}
+
+.volun-bao {
+  color: #1497cd;
+  border: 1px solid #1497cd;
+}
+
+.volun-dian {
+  color: #83cdbd;
+  border: 1px solid #83cdbd;
+}
+
+.loading-box .loading-img {
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-bottom: 30px;
+}
+
+.w140 {
+  width: 140px;
+}
+
+.w170 {
+  width: 170px;
+}
+
+.w200 {
+  width: 200px;
+}
+
+.w90 {
+  width: 90px;
+}
+
+.w50 {
+  width: 50px;
+}
+
+.w75 {
+  width: 75px;
+}
+
+.specialtys-result-btn {
+  border: 1px solid;
+  background-color: #fff;
+  color: #b90a15;
+  border-radius: 3px;
+  line-height: 19px;
+  height: 24px;
+}
+
+/*
+============================================
+浙江|上海批次分数同步提交
+============================================
+*/
+#reported-content-xxx .xxx-tips {
+  color: #676767;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#reported-content-xxx .xxx-radio {
+  color: #676767;
+}
+#reported-content-xxx .xxx-radio #xxx-ws, #reported-content-xxx .xxx-radio #xxx-lg {
+  display: inline-block;
+  margin: 0 5px 0 20px;
+  font-size: 15px;
+}
+#reported-content-xxx .line-bottom {
+  margin-bottom: 20px;
+}
+#reported-content-xxx .col-1 {
+  border: 1px solid #eeeeee;
+  background: rgba(245, 245, 245, 0.38);
+  margin-bottom: 11px;
+  padding: 20px 30px;
+}
+#reported-content-xxx .col-1 .into-list {
+  position: relative;
+}
+#reported-content-xxx .col-1 .into-list strong {
+  font-size: 18px;
+}
+#reported-content-xxx .col-1 .into-list .info {
+  font-size: 14px;
+}
+#reported-content-xxx .col-1 .into-list .btn {
+  position: absolute;
+  right: 2px;
+  top: 5px;
+}
+#reported-content-xxx .col-1 .into-list .btn-primary {
+  border: none;
+  height: 42px;
+  line-height: 23px;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+#reported-content-xxx .col-1 .into-list .recommend-icon {
+  height: 24px;
+  width: 24px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 22px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #F5A623;
+  box-shadow: -1px 1px 4px rgba(119, 58, 58, 0.19);
+  border: 1px solid #F57E23;
+}
+#reported-content-xxx .col-1 .into-list .into-set-xxx .xxx-mask {
+  height: 40px;
+  width: 385px;
+  position: absolute;
+  top: 59px;
+  z-index: 2;
+  cursor: not-allowed;
+  display: none;
+}
+#reported-content-xxx .col-1 .into-list .into-set-xxx .input-container {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin-right: 25px;
+}
+#reported-content-xxx .col-1 .into-list .into-set-xxx .input-container span {
+  padding: 6px 12px 6px 15px;
+  display: inline-block;
+  background: #eee;
+  border-right: 1px solid #DDD;
+}
+#reported-content-xxx .col-1 .into-list .into-set-xxx .input-container input {
+  float: right;
+  padding: 0 10px;
+  outline: none;
+  border: none;
+  height: 36px;
+  line-height: 36px;
+  width: 120px;
+}
+#reported-content-xxx .col-1 .into-list .into-set-xxx .input-container .input-disabled {
+  background: #eee;
+  float: right;
+}
+#reported-content-xxx .col-1 .into-list .into-set-xxx .input-container .js-switch {
+  display: none;
+}
+#reported-content-xxx .col-1 .js-switch {
+  display: none;
+}
+#reported-content-xxx .col-1:last-child {
+  margin-bottom: 60px;
+}
+#reported-content-xxx .col-1 .xxx-warm-tips {
+  color: #d80c18;
+  font-size: 15px;
+  margin-top: 15px;
+}
+
+/*
+空数据
+*/
+.no-data {
+  position: absolute;
+  bottom: 330px;
+  margin-left: 190px;
+}
+
+.vip-into-content {
+  padding: 10px 0 40px;
+}
+.vip-into-content .vip-into {
+  text-align: center;
+  font-size: 24px;
+  color: #D80C18;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+.vip-into-content .h3 {
+  position: relative;
+  left: 0;
+  top: 0;
+  color: #D80C18;
+  font-size: 18px;
+  border-bottom: 1px solid #EAEAEA;
+  line-height: 40px;
+}
+.vip-into-content .h3 span {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 146px;
+  height: 1px;
+  display: inline-block;
+  border-bottom: 1px solid #D80C18;
+}
+.vip-into-content .fun-list {
+  overflow: hidden;
+}
+.vip-into-content .fun-list li {
+  padding: 10px 0 0;
+}
+.vip-into-content .fun-list .t {
+  line-height: 22px;
+  color: #D80C18;
+  font-size: 16px;
+}
+.vip-into-content .fun-list .txt {
+  color: #727171;
+  font-size: 16px;
+  margin-left: 30px;
+}
+.vip-into-content .fun-list .t .list-style {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #D80C18;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.vip-into-content .flow-list {
+  overflow: hidden;
+  clear: both;
+  margin: 30px 0 0;
+}
+.vip-into-content .flow-list .sequence {
+  border-radius: 25px;
+  border: 1px solid #D80C18;
+  color: #D80C18;
+  width: 82px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+.vip-into-content .flow-list .sequence-c {
+  font-size: 16px;
+  line-height: 24px;
+  color: #727171;
+  margin: 15px 0 0;
+}
+.vip-into-content .flow-list dt {
+  width: 114px;
+  height: 114px;
+  float: left;
+  margin: 0 20px 0 0;
+}
+.vip-into-content .flow-list dd {
+  margin-top: 10px;
+}
+.vip-into-content .user-info li {
+  clear: both;
+  font-size: 14px;
+  color: #000;
+  padding: 0 0 0 30px;
+  background: url("../../img/user-info-style.png") no-repeat 0 2px;
+  background-size: 20px;
+}
+.vip-into-content .h3-result {
+  font-size: 18px;
+  color: #000;
+  font-weight: normal;
+}
+.vip-into-content .h3-result span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #DC242F;
+  margin-right: 20px;
+  position: relative;
+  top: 2px;
+}
+.vip-into-content .h4 {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 20px 0;
+  font-weight: normal;
+}
+.vip-into-content .txt1 {
+  font-size: 14px;
+  line-height: 24px;
+}
+.vip-into-content .txt1 .list-style {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #D80C18;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.vip-into-content .c00 {
+  color: #D80C18;
+}
+.vip-into-content .txt2 {
+  line-height: 24px;
+  margin: 20px 0;
+}
+.vip-into-content table {
+  width: 100%;
+}
+.vip-into-content th {
+  background: #f5f5f5;
+}
+.vip-into-content td, .vip-into-content th {
+  border: 1px solid #f1f1f1;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #696969;
+  font-weight: normal;
+}
+.vip-into-content table .left {
+  text-align: left;
+  padding: 15px 0 15px 15px;
+}
+
+.bgf5 {
+  background-color: #f5f5f5;
+}
+
+.title-name {
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  background: #dedede;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.search-content input[type="button"], .sel-small-btn[type="button"] {
+  width: 180px;
+  outline: none;
+}
+
+.volunteer-btn {
+  display: inherit !important;
+}
+.volunteer-btn:hover {
+  color: #fff !important;
+}
+
+.volunteer-title {
+  margin: 20px 0;
+}
+
+.volunteer-table .school-item {
+  width: 40%;
+}
+
+.radio-sel label {
+  text-align: left;
+  margin: 8px !important;
+}
+.radio-sel label input {
+  margin-right: 3px;
+}
+
+tr .code-number {
+  text-align: center !important;
+  vertical-align: middle !important;
+  width: 8%;
+}
+
+.specialty li .input input {
+  width: 180px;
+  height: 35px;
+  background: #fff;
+  padding: 0 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.specialty li .input {
+  float: left;
+  text-align: left;
+  width: 178px;
+  height: 35px;
+}

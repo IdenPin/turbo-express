@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/*
+高考课堂详情
+*/
+.class-collage-detail h3 {
+  font-size: 20px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+.class-collage-detail .video-container {
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+.class-collage-detail .video-container .video-class {
+  width: 100%;
+  height: 530px;
+}
+.class-collage-detail .video-container .video-about {
+  height: 45px;
+  line-height: 45px;
+  background-color: #818181;
+  text-align: right;
+  color: #ccc;
+  padding: 0 20px;
+}
+
+.detail-container {
+  overflow: hidden;
+}
+.detail-container h3 {
+  font-size: 18px;
+  color: #d80c18;
+}
+.detail-container .content-left {
+  width: 680px;
+  float: left;
+}
+.detail-container .content-left .select {
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 310px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  border: 1px solid #f1f1f1;
+}
+.detail-container .content-left .select a {
+  color: #333333;
+}
+.detail-container .content-right {
+  width: 320px;
+  float: left;
+}
+.detail-container .content-right li {
+  line-height: 28px;
+}
+.detail-container .content-right li b {
+  line-height: 30px;
+  display: inline-block;
+}

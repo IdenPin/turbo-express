@@ -1,0 +1,472 @@
+@charset "UTF-8";
+.banner {
+  background: #6aa4d2 url("../../img/video-buy-banner.jpg");
+  width: 100%;
+  height: 202px;
+}
+.banner .count-down {
+  position: relative;
+}
+.banner .count-down .box {
+  position: absolute;
+  left: 550px;
+  top: 70px;
+  font-size: 20px;
+  color: #fff;
+}
+.banner .count-down .box .date {
+  font-size: 36px;
+  display: inline-block;
+  height: 51px;
+  width: 35px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.page-content {
+  margin: 30px auto;
+  width: 860px;
+}
+.page-content .item-box {
+  border: 1px solid #919191;
+  width: 860px;
+  height: 260px;
+  margin: 0px 0px 40px 0px;
+  padding-top: 30px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+}
+.page-content .item-box .pakeage-logo {
+  position: absolute;
+  right: 20px;
+}
+.page-content .item-box .left-container {
+  width: 620px;
+  height: 220px;
+  float: left;
+  position: relative;
+}
+.page-content .item-box .left-container .title {
+  height: 34px;
+}
+.page-content .item-box .left-container .title > span {
+  line-height: 34px;
+  font-size: 28px;
+  display: block;
+  float: left;
+  color: #d80c18;
+}
+.page-content .item-box .left-container .title > b {
+  width: 16px;
+  height: 34px;
+  margin-right: 14px;
+  display: block;
+  float: left;
+  background-color: #d80c18;
+}
+.page-content .item-box .left-container .slogan {
+  margin-left: 30px;
+  color: #d80c18;
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.page-content .item-box .left-container .content {
+  margin: 10px 0px 0px 30px;
+  color: #686868;
+  height: 120px;
+  font-size: 14px;
+  line-height: 28px;
+}
+.page-content .item-box .left-container .info {
+  margin-left: 30px;
+  color: #4A90E2;
+  font-size: 16px;
+  line-height: 35px;
+  display: block;
+  background: url(../../img/icon-buy-notifier.png) no-repeat;
+  background-position: center left;
+  padding-left: 25px;
+  text-decoration: none;
+}
+.page-content .item-box .left-container .content-box {
+  margin: 20px 30px;
+  width: 800px;
+  height: auto;
+  overflow: hidden;
+}
+.page-content .item-box .left-container .content-box > span {
+  width: 400px;
+  float: left;
+  display: block;
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  color: #686868;
+}
+.page-content .item-box .left-container .content-box .detail-address {
+  color: #686868;
+  font-size: 16px;
+}
+.page-content .item-box .left-container .content-box .show-address {
+  margin-top: 20px;
+  text-align: center;
+}
+.page-content .item-box .left-container .content-box .total-pay {
+  width: 800px;
+  height: 50px;
+  padding-top: 15px;
+  margin-top: 30px;
+  line-height: 30px;
+  font-size: 22px;
+  border-top: 1px solid #D8D8D8;
+  float: left;
+  color: #575757;
+  text-align: center;
+}
+.page-content .item-box .left-container .content-box button {
+  width: 270px;
+  height: 150px;
+  margin: 0px 60px;
+  border: 1px solid  #CBCBCB;
+  background-color: #FFFFFF;
+  outline: none;
+  border-radius: 3px;
+}
+.page-content .item-box .left-container .content-box .pay-alipay-btn {
+  background: url("../../img/alipayLOGO.png") center 50px no-repeat, url("../../img/icon_wrong.png") center 115px no-repeat;
+}
+.page-content .item-box .left-container .content-box .pay-alipay-btn-active {
+  border: 1px solid #d80c18;
+  background: url("../../img/alipayLOGO.png") center 50px no-repeat, url("../../img/icon_ok.png") center 115px no-repeat;
+}
+.page-content .item-box .left-container .content-box .pay-wechart-btn {
+  background: url("../../img/wechartPay.png") center 44px no-repeat, url("../../img/icon_wrong.png") center 115px no-repeat;
+}
+.page-content .item-box .left-container .content-box .pay-wechart-btn-active {
+  border: 1px solid #d80c18;
+  background: url("../../img/wechartPay.png") center 44px no-repeat, url("../../img/icon_ok.png") center 115px no-repeat;
+}
+.page-content .item-box .left-container .buy-btn {
+  border: 1px solid #d80c18;
+  color: #d80c18;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  width: 130px;
+  padding: 0px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+  outline: none;
+  border-radius: 3px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+}
+.page-content .item-box .right-container {
+  width: 230px;
+  height: 120px;
+}
+.page-content .item-box .right-container .line {
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+}
+.page-content .item-box .right-container .line > span {
+  height: 40px;
+  line-height: 40px;
+  display: block;
+  float: left;
+}
+.page-content .item-box .right-container .line > span:first-child {
+  color: #686868;
+  width: 65px;
+  text-align: justify;
+  font-size: 14px;
+}
+.page-content .item-box .right-container .line .round-btn {
+  width: 22px;
+  height: 22px;
+  line-height: 1pc;
+  border-radius: 10px;
+  border: 1px solid #d80c18;
+  color: #d80c18;
+  margin: 10px;
+  text-align: center;
+  display: block;
+  float: left;
+  font-size: 22px;
+  cursor: pointer;
+}
+.page-content .item-box .right-container .line .deactive {
+  color: #686868;
+  border-color: #686868;
+}
+.page-content .item-box .right-container .line .price {
+  color: #d80c18;
+  font-size: 30px;
+}
+.page-content .item-box .right-container .line .quantity {
+  color: #575757;
+  font-size: 14px;
+  width: 20px;
+  text-align: center;
+}
+.page-content .item-box .right-container .line .total {
+  color: #575757;
+  font-size: 18px;
+}
+.page-content .box-button {
+  margin: 50px 0px 20px 0px;
+  width: 860px;
+  height: 45px;
+  text-align: center;
+}
+.page-content .box-button button {
+  height: 45px;
+  width: 130px;
+  margin: 0px 45px;
+  line-height: 45px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0px;
+  outline: none;
+}
+.page-content .box-button button:first-child {
+  color: #FFFFFF;
+  border: none;
+  background-color: #d80c18;
+}
+.page-content .box-button button:last-child {
+  color: #979797;
+  border: 1px solid #979797;
+  background-color: #FFFFFF;
+}
+.page-content .box1 {
+  background: url("../../img/topBackground.png");
+}
+.page-content .box2 {
+  background: url("../../img/VIPBackground.png");
+}
+.page-content .box-upper {
+  border-bottom: none;
+  margin-bottom: 0px;
+  height: 290px;
+}
+.page-content .box-upper .left-container {
+  width: 860px;
+  height: auto;
+}
+.page-content .address-box {
+  height: 200px;
+}
+.page-content .box-bottom {
+  height: 290px;
+}
+.page-content .box-bottom .left-container {
+  width: 860px;
+  height: auto;
+}
+
+.fr {
+  float: right;
+  margin-right: 30px;
+}
+
+.add-or-update-address {
+  color: #4A90E2;
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*
+收货地址
+========================================
+*/
+.save-or-update .tc {
+  text-align: center;
+  margin-top: 40px;
+}
+.save-or-update .form-group {
+  overflow: hidden;
+}
+.save-or-update .form-group span {
+  color: #D80C18;
+}
+.save-or-update .form-group .col-sm-2 {
+  width: 18%;
+  float: left;
+}
+.save-or-update .form-group .col-sm-10 {
+  width: 82%;
+  float: left;
+  padding: 0 !important;
+}
+.save-or-update .form-group .control-label {
+  padding-top: 7px;
+  margin-bottom: 0;
+  text-align: right;
+  color: #686868;
+  font-size: 16px;
+  font-weight: 100;
+  padding-right: 0;
+}
+.save-or-update .form-group .form-control {
+  height: 36px;
+  padding: 0 12px;
+}
+.save-or-update .form-group .btn-danger {
+  background: #D70C18;
+  padding: 8px 24px;
+}
+.save-or-update .form-group .areaSel span.select {
+  height: 38px;
+  line-height: 36px;
+  display: inline-block;
+  width: 32.6666%;
+  border: 1px solid #e5e5e5;
+  outline: none;
+}
+.save-or-update .form-group .areaSel select.form-control {
+  height: 36px;
+  border: none;
+  background: none;
+  padding: 0;
+}
+.save-or-update .form-group .error-msg {
+  width: 100%;
+  text-align: center;
+  height: 0px;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+  line-height: 30px;
+  margin-top: 5px;
+}
+.save-or-update .address-item {
+  font-size: 16px;
+  color: #686868;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.save-or-update .update-address {
+  font-size: 18px;
+  color: #D70C18;
+  border: 1px solid #D70C18;
+  width: 137px;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 3px;
+  background: transparent;
+}
+
+.wechartWindow {
+  padding: 0px;
+}
+.wechartWindow .title {
+  height: 30px;
+  line-height: 30px;
+  font-size: 24px;
+}
+.wechartWindow .title > span {
+  display: block;
+  float: left;
+  height: 30px;
+  color: #d80c18;
+}
+.wechartWindow .title > span:first-child {
+  width: 10px;
+  margin: 0px 30px;
+  background-color: #d80c18;
+}
+.wechartWindow .content {
+  width: 670px;
+  height: 350px;
+  overflow: hidden;
+}
+.wechartWindow .content .left-container {
+  width: 420px;
+  height: 350px;
+  float: left;
+}
+.wechartWindow .content .left-container .slogan {
+  margin: 26px 0px 16px 0px;
+  width: 420px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 26px;
+  text-align: center;
+  color: #575757;
+}
+.wechartWindow .content .left-container .qr {
+  height: 244px;
+  width: 420px;
+  text-align: center;
+}
+.wechartWindow .content .left-container .qr > span {
+  width: 240px;
+  height: 240px;
+  display: inline-block;
+  background-color: #EFEFEF;
+  border-radius: 4px;
+  border: 2px solid #D7D7D7;
+  padding: 28px;
+  overflow: hidden;
+}
+.wechartWindow .content .left-container .qr > span > span {
+  width: 184px;
+  height: 184px;
+  position: relative;
+  background-color: rgba(249, 249, 249, 0.8);
+  text-align: center;
+}
+.wechartWindow .content .left-container .qr > span > span > button {
+  width: 125px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  text-align: center;
+  border: none;
+  padding: 0px;
+  color: #FFFFFF;
+  background-color: #d80c18;
+  border-radius: 3px;
+  margin-top: 70px;
+}
+.wechartWindow .content .left-container .qr > span .show {
+  top: -184px;
+}
+.wechartWindow .content .left-container .timeout {
+  margin-top: 10px;
+  height: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #575757;
+}
+.wechartWindow .content .left-container .timeout > span {
+  color: #d80c18;
+}
+.wechartWindow .content .right-container {
+  width: 220px;
+  height: 350px;
+  float: left;
+  background: url("../../img/scanQR.png") center no-repeat;
+}
+.wechartWindow .bottom {
+  margin: 10px 30px 0px 20px;
+  padding-top: 10px;
+  line-height: 20px;
+  font-size: 14px;
+  border-top: 1px solid #D8D8D8;
+  text-align: center;
+  color: #575757;
+  text-decoration: underline;
+  display: block;
+  cursor: pointer;
+}

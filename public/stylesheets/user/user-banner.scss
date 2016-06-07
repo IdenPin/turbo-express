@@ -1,0 +1,84 @@
+@charset "utf-8";
+@import "../variables";
+//banner信息
+.banner-info {
+  height: 110px;
+  width: 100%;
+  background: $mainColor;
+  //background: #d7efff url(../../img/account-info-banner.png) center center;
+  .banner-user {
+    position: relative;
+    .user-avatar {
+      position: absolute;
+      top: 17px;
+      left: 94px;
+      width: 74px;
+      height: 74px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+    }
+    .welcome-txt {
+      position: absolute;
+      top: 28px;
+      left: 10px;
+      color: #fff;
+      font-size: 14px;
+    }
+    .btn-vip {
+      display: none;
+      height: 30px;
+      //background-color: #f3981b;
+      color: #fff;
+      border: 1px solid #fff;
+      position: absolute;
+      top: 54px;
+      left: 10px;
+      padding: 5px 12px;
+      border-radius: 2px;
+      .icon-diamond {
+        position: relative;
+        top: -1;
+        margin-right: 5px;
+      }
+      a {
+        color: #fff;
+      }
+    }
+    .vip-box {
+      display: none;
+      height: 30px;
+      position: absolute;
+      top: 54px;
+      //left: 10px;
+      padding: 5px 12px;
+      color: #fff;
+    }
+    .user-type {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 125px;
+      color: #fff;
+      .icon-u-avatar {
+        position: relative;
+        top: -2px;
+        margin-right: 3px;
+      }
+    }
+    .score-and-school {
+      display: none;
+      color: #fff;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      .icon-u-account, .icon-school {
+        margin-right: 3px;
+        position: relative;
+        top: -1px;
+      }
+      .icon-school {
+        margin-left: 20px;
+      }
+    }
+  }
+}

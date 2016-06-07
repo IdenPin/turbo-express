@@ -1,10 +1,193 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="description" content="智高考专注高考志愿填报咨询指导，针对不同地区的考生提供特殊的填报技巧，为高考考生提供智能填报系统。" />
+<meta content="2016年高考分数查询,2016年高考志愿填报,2016年高考志愿怎么填,2016年最新大学排名,高考志愿填报指南,全国大学详细介绍,全国大学专业排名,大学专业就业率排名,过一本线先如何报志愿,大专如何报志愿,分数低如何报志愿
+" name="Keywords">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<link rel="stylesheet" href="../public/stylesheets/index.css">
+<link rel="shortcut icon" href="/favicon.ico"/>
+<script>
+    alert(1);
+</script>
+<!--[if lt IE 9]>
+<script src="http://cdn.gaokao360.net/static/bower_components/lib/html5shiv.js"></script>
+<script src="http://cdn.gaokao360.net/static/bower_components/lib/respond.min.js"></script>
+<![endif]-->
+<header class="header w1000">
+    <div class="logo pull-left"><h1 class="sr-only">智高考</h1>
+        <div class="icon-logo"></div>
+        <div class="current-province"><i class="icon-location"></i> <span class="current" id="current-province"></span>
+            <div class="opc-div">
+                <ul class="select-province" id="select-province"><span class="w-arrow"><em
+                        class="w-arrow-a"></em></span>
+                    <li><a href="http://zj.zhigaokao.cn/">浙江</a></li>
+                    <li><a href="http://sn.zhigaokao.cn/">陕西</a></li>
+                    <li><a href="http://fj.zhigaokao.cn/">福建</a></li>
+                    <li><a href="http://gd.zhigaokao.cn/">广东</a></li>
+                    <li><a href="http://hb.zhigaokao.cn/">湖北</a></li>
+                    <li><a href="http://hn.zhigaokao.cn/">湖南</a></li>
+                    <li><a href="http://gx.zhigaokao.cn/">广西</a></li>
+                    <li><a href="http://ha.zhigaokao.cn/">河南</a></li>
+                    <li><a href="http://sd.zhigaokao.cn/">山东</a></li>
+                    <li><a href="http://he.zhigaokao.cn/">河北</a></li>
+                    <li><a href="http://sc.zhigaokao.cn/">四川</a></li>
+                    <li><a href="http://sh.zhigaokao.cn/">上海</a></li>
+                    <li><a href="http://cq.zhigaokao.cn/">重庆</a></li>
+                    <li><a href="http://jx.zhigaokao.cn/">江西</a></li>
+                    <li><a href="http://yn.zhigaokao.cn/">云南</a></li>
+                    <li><a href="http://bj.zhigaokao.cn/">北京</a></li>
+                    <li><a href="http://tj.zhigaokao.cn/">天津</a></li>
+                    <li><a href="http://hi.zhigaokao.cn/">海南</a></li>
+                    <li><a href="http://ah.zhigaokao.cn/">安徽</a></li>
+                    <li><a href="http://js.zhigaokao.cn/">江苏</a></li>
+                    <li><a href="http://jl.zhigaokao.cn/">吉林</a></li>
+                    <li><a href="http://ln.zhigaokao.cn/">辽宁</a></li>
+                    <li><a href="http://gs.zhigaokao.cn/">甘肃</a></li>
+                    <li><a href="http://sx.zhigaokao.cn/">山西</a></li>
+                    <li><a href="http://gz.zhigaokao.cn/">贵州</a></li>
+                    <li><a href="http://nx.zhigaokao.cn/">宁夏</a></li>
+                    <li><a href="http://xj.zhigaokao.cn/">新疆</a></li>
+                    <li><a href="http://hl.zhigaokao.cn/">黑龙江</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <ul class="menu">
+        <li><a id="nav-index" href="/index.html">首页</a></li>
+        <li><a id="nav-news-hot" href="/news-hot.html">高考资讯</a>
+            <div class="sub-menu">
+                <ul><span class="w-arrow"><em class="w-arrow-a"></em> <em class="w-arrow-b"></em></span>
+                    <li><a id="news-hot" href="/news-hot.html">高考热点</a></li>
+                    <li><a id="news-policy" href="/news-policy.html">高考政策</a></li>
+                    <li><a id="news-schedule" href="/news-schedule.html">高考日程</a></li>
+                    <li><a id="data-gk-word" href="/data-gk-word.html">高考词条</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a id="nav-data-school-info" href="/data-school-info.html">数据查询</a>
+            <div class="sub-menu">
+                <ul><span class="w-arrow"><em class="w-arrow-a"></em> <em class="w-arrow-b"></em></span>
+                    <li><a id="data-school-info" href="/data-school-info.html">院校信息</a></li>
+                    <li><a id="data-professional-info" href="/data-professional-info.html">专业信息</a></li>
+                    <li><a id="data-school-enrollment" href="/data-school-enrollment.html">院校录取信息</a></li>
+                    <li><a id="data-occupational-info" href="/data-occupational-info.html">职业信息</a></li>
+                    <li><a id="data-area-scores" href="/data-area-scores.html">地区批次线</a></li>
+                    <li><a id="news-admissions-office-phone" href="/news-admissions-office-phone.html">招办电话</a></li>
+                    <li><a id="zhiliuxue" href="http://www.zinch.cn/?utm_source=zhigaokao&utm_medium=zhigaokao&utm_campaign=zhigaokao" target="_blank">智留学</a></li>
+                </ul>
+            </div>
+        </li>
+        <li><a id="nav-class-college" href="/class-college.html">高考学堂</a>
+            <div class="sub-menu">
+                <ul><span class="w-arrow"><em class="w-arrow-a"></em> <em class="w-arrow-b"></em></span>
+                    <li><a id="class-college" href="/class-college.html">志愿讲堂</a></li>
+                    <li><a id="zhixuetang" href="http://xuetang.zhigaokao.cn/" target="_blank">智学堂</a></li>
+                </ul>
+            </div>
+        </li>
+        <li class="sidebar"><a id="nav-predict-degree" href="/predict-degree.html">志愿填报</a>
+            <div class="sub-menu">
+                <ul><span class="w-arrow"><em class="w-arrow-a"></em> <em class="w-arrow-b"></em></span>
+                    <li><a id="predict-degree" href="/predict-degree.html">录取难易预测</a></li>
+                    <li><a id="predict-school" href="/predict-school.html">院校预测</a></li>
+                    <li><a id="predict-professional" href="/predict-professional.html">专业测评</a></li>
+                    <li class="volunteer-links"><a id="volunteer-links" href="/predict-volunteer.html">智能填报</a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+    <span class="overseas-study">
+        <i class="icon-earth-0" id="overseas-study-img"></i>
+        <a id="school-video-buy" href="/school-video-buy.html">购买VIP</a>
+    </span>
+    <div class="login-nav pull-right">
+        <div class="login-front" id="login-front"><a href="/login.html">登录</a>&nbsp;|&nbsp;<a href="/login.html">注册</a>
+        </div>
+        <div class="login-end dh" id="login-end">
+            <div class="user-info"><img src="img/avatar.png" class="user-avatar" id="header-user-avatar">
+                <span id="header-user-name"></span></div>
+            <div class="sub-menu">
+                <ul><span class="w-arrow"><em class="w-arrow-a"></em> <em class="w-arrow-b"></em></span>
+                    <li><a href="/user-account-info.html">帐号信息</a></li>
+                    <li><a href="/user-vip.html">VIP特权</a></li>
+                    <li><a href="/user-collection.html">我的收藏</a></li>
+                    <li><a href="/user-target.html">目标定位</a></li>
+                    <li><a href="/user-service.html">服务中心</a></li>
+                    <li><a href="/user-report.html">我的报告</a></li>
+                    <li><a href="/user-order.html">我的订单</a></li>
+                    <li><a href="javascript:;" id="logout-btn">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
   <body>
     {{{body}}}
   </body>
+  <footer id="footer" class="footer-bg">
+      <div class="w1000">
+          <div class="links-nav">
+              <div class="links">
+                  <dl class="links-item">
+                      <dt><a href="/">首页</a></dt>
+                      <dd></dd>
+                  </dl>
+                  <dl class="links-item">
+                      <dt><a href="/news-hot.html">高考资讯</a></dt>
+                      <dd><a href="/news-hot.html">高考热点</a></dd>
+                      <dd><a href="/news-policy.html">高考政策</a></dd>
+                      <dd><a href="/news-schedule.html">高考日程</a></dd>
+                      <dd><a href="/data-gk-word.html">高考词条</a></dd>
+                  </dl>
+                  <dl class="links-item">
+                      <dt><a href="/data-school-info.html">数据查询</a></dt>
+                      <dd><a href="/data-school-info.html">院校信息</a></dd>
+                      <dd><a href="/data-professional-info.html">专业信息</a></dd>
+                      <dd><a href="/data-school-enrollment.html">院校招生信息</a></dd>
+                      <dd><a href="/data-occupational-info.html">职业信息</a></dd>
+                      <dd><a href="/data-area-scores.html">地区批次线</a></dd>
+                      <dd><a href="http://www.zinch.cn/?utm_source=zhigaokao&utm_medium=zhigaokao&utm_campaign=zhigaokao" target="_blank">智留学</a></dd>
+                  </dl>
+                  <dl class="links-item">
+                      <dt><a href="/class-college.html">高考学堂</a></dt>
+                      <dd><a href="/class-college.html">志愿讲堂</a></dd>
+                      <dd><a href="http://xuetang.zhigaokao.cn/" target="_blank">智学堂</a></dd>
+                  </dl>
+                  <dl class="links-item">
+                      <dt><a href="/predict-degree.html">志愿填报</a></dt>
+                      <dd><a href="/predict-degree.html">录取难易预测</a></dd>
+                      <dd><a href="/predict-school.html">考前预测</a></dd>
+                      <dd><a href="/predict-professional.html">专业测评</a></dd>
+                      <dd><a href="/predict-volunteer.html">智能填报</a></dd>
+                  </dl>
+                  <dl class="links-item">
+                      <dt><a href="javascript:;">关于智高考</a></dt>
+                      <dd><a href="/service.html">服务协议</a></dd>
+                      <dd><a href="/free-statement.html">免责声明</a></dd>
+                  </dl>
+              </div>
+              <div class="server-list">
+                  <dl class="item">
+                      <dt class="icon-phone"></dt>
+                      <dd>
+                          <span class="t">客服热线</span>
+                          <span class="c">400-111-0678</span>
+                      </dd>
+                  </dl>
+                  <dl class="item">
+                      <dt class="icon-email"></dt>
+                      <dd>
+                          <span class="t">电子邮箱</span>
+                          <span class="c">zhigaokao@thinkjoy.cn</span>
+                      </dd>
+                  </dl>
+              </div>
+          </div>
+      </div>
+      <div class="copyright">
+          Copyright&copy;2015 Zhigaokao.cn 智高考-高考志愿填报专家 版权所有<br/>
+          粤ICP备15090320号
+      </div>
+  </footer>
 </html>

@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/*
+院校招生信息
+*/
+.search-box {
+  margin: 30px 60px 30px 190px;
+}
+
+._ml45 {
+  margin-left: -45px !important;
+}
+
+.choose-option {
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.choose-option .tips {
+  color: #d80c18;
+}
+.choose-option dl {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+.choose-option dl dt {
+  width: 120px;
+  display: inline-block;
+  vertical-align: top;
+}
+.choose-option dl dt .all {
+  line-height: 24px;
+  color: #333333;
+  padding: 0 6px;
+  display: inline-block;
+  border-radius: 2px;
+}
+.choose-option dl dt .active {
+  background-color: #d80c18;
+  color: #fff;
+}
+.choose-option dl dd {
+  width: 824px;
+  display: inline-block;
+}
+.choose-option dl dd span {
+  margin: 0 5px;
+  padding: 0 6px;
+  line-height: 24px;
+  cursor: pointer;
+  border-radius: 2px;
+  float: left;
+  display: block;
+}
+.choose-option dl dd span:hover {
+  background-color: #d80c18;
+  color: #fff;
+}
+.choose-option dl dd .active {
+  background-color: #d80c18;
+  color: #fff;
+}
+
+.result-box .title {
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.result-box .title b {
+  cursor: pointer;
+}
+.result-box .title .active {
+  display: inline-block;
+  color: #d80c18;
+  border-bottom: 2px solid #d80c18;
+  position: relative;
+}
+.result-box .title .active .triangle-bottom {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid \9;
+  border-top: 8px solid #d80c18 !important;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  z-index: 99;
+}
+.result-box .title .divide {
+  font-weight: 700;
+  margin: 0 20px;
+}
+.result-box .table-list {
+  width: 100%;
+  margin-top: 10px;
+}
+.result-box .table-list .w250 {
+  width: 250px;
+}
+.result-box .table-list tr {
+  border-bottom: 1px solid #f1f1f1;
+}
+.result-box .table-list th {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.result-box .table-list .school-info {
+  position: relative;
+  text-align: left;
+  text-indent: 25px;
+  height: 60px;
+}
+.result-box .table-list .icon-heart {
+  position: absolute;
+  top: 22px;
+  left: 12px;
+}
+.result-box .table-list .name {
+  width: 200px;
+  margin: 0;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.result-box .table-list td {
+  text-align: center;
+}
+.result-box .table-list td .list-type span {
+  padding: 1px 3px;
+  border-radius: 1px;
+  margin-right: 2px;
+}
+.result-box .table-list td .list-type .type-985 {
+  color: #d80c18;
+  border: 1px solid #d80c18;
+}
+.result-box .table-list td .list-type .type-211 {
+  color: #e8380d;
+  border: 1px solid #e8380d;
+}
+.result-box .table-list td .list-type .type-yan {
+  color: #ed6c00;
+  border: 1px solid #ed6c00;
+}
+.result-box .table-list td .list-type .type-zi {
+  color: #ff9650;
+  border: 1px solid #ff9650;
+}
+.result-box .table-list td .list-type .type-guo {
+  color: #ffc286;
+  border: 1px solid #ffc286;
+}
+.result-box .table-list td .list-type .type-zhuo {
+  color: #fbcc9d;
+  border: 1px solid #fbcc9d;
+}
+.result-box .table-list th {
+  background: #f5f5f5;
+}

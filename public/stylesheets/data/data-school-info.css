@@ -1,0 +1,260 @@
+.search-box {
+  margin: 30px 60px 30px 190px;
+}
+
+._ml45 {
+  margin-left: -45px !important;
+}
+
+.select-box {
+  padding: 10px 0;
+  clear: both;
+}
+.select-box .content {
+  height: 315px;
+  border: 1px solid #e8e8e8;
+  padding: 20px 29px;
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 99;
+}
+.select-box .tips {
+  color: #d80c18;
+}
+.select-box .comm-select {
+  padding: 10px 0;
+}
+.select-box .comm-select .left-title {
+  line-height: 24px;
+  float: left;
+  width: 130px;
+}
+.select-box .comm-select .left-title h2 {
+  font-size: 14px;
+  display: inline-block;
+  padding: 0;
+  margin: 0 5px 0 0;
+}
+.select-box .comm-select .left-title .all {
+  padding: 3px 5px;
+  border-radius: 1px;
+  margin: 0 5px 5px 5px;
+  cursor: pointer;
+}
+.select-box .comm-select .hover, .select-box .comm-select .left-title .active, .select-box .comm-select .left-title .active:hover, .select-box .comm-select .right-item li:hover, .select-box .comm-select .active {
+  color: #fff;
+  background-color: #d80c18;
+}
+.select-box .comm-select .right-item {
+  padding: 0;
+  width: 810px;
+  float: left;
+}
+.select-box .comm-select .right-item li {
+  padding: 2px 5px;
+  border-radius: 1px;
+  margin: 0 6px 6px 0;
+  float: left;
+  cursor: pointer;
+}
+.select-box .comm-select .h95 {
+  height: 95px;
+  border-bottom: 1px #ccc dashed;
+  margin-bottom: 15px;
+}
+.select-box .comm-select .h40 {
+  height: 40px;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 15px;
+}
+
+.school-data-list h2, .school-data-list ul {
+  margin: 0;
+  padding: 0;
+}
+.school-data-list .data-list {
+  margin-top: 30px;
+  float: left;
+  width: 730px;
+  margin-right: 35px;
+}
+.school-data-list .data-list .school-list {
+  border-bottom: 1px solid rgba(235, 235, 235, 0.7);
+  position: relative;
+  height: 140px;
+  font-size: 14px;
+  color: #666666;
+}
+.school-data-list .data-list .school-list .school-logo {
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  left: 0;
+  width: 105px;
+  height: 105px;
+  border-radius: 50%;
+}
+.school-data-list .data-list .school-list .comm-position, .school-data-list .data-list .school-list .top, .school-data-list .data-list .school-list .middle {
+  position: absolute;
+  top: 20px;
+}
+.school-data-list .data-list .school-list .top {
+  left: 125px;
+  font-weight: 700;
+}
+.school-data-list .data-list .school-list .top .school-name {
+  cursor: pointer;
+  font-size: 20px;
+  color: #333333;
+  margin-right: 20px;
+}
+.school-data-list .data-list .school-list .top .icon-flag {
+  margin-right: 5px;
+  position: relative;
+  top: -2px;
+}
+.school-data-list .data-list .school-list .top .collect {
+  color: #666;
+  font-size: 14px;
+  text-decoration: none;
+  outline: none;
+}
+.school-data-list .data-list .school-list .top .collect .icon-heart,
+.school-data-list .data-list .school-list .top .collect .icon-heart-no {
+  margin: 0 5px 0 20px;
+  position: relative;
+  top: -2px;
+}
+.school-data-list .data-list .school-list .middle {
+  top: 57px;
+  left: 125px;
+  width: 570px;
+}
+.school-data-list .data-list .school-list .middle span {
+  padding: 1px 3px;
+  border-radius: 1px;
+  margin-right: 2px;
+}
+.school-data-list .data-list .school-list .middle .type-985 {
+  color: #d80c18;
+  border: 1px solid #d80c18;
+}
+.school-data-list .data-list .school-list .middle .type-211 {
+  color: #e8380d;
+  border: 1px solid #e8380d;
+}
+.school-data-list .data-list .school-list .middle .type-yan {
+  color: #ed6c00;
+  border: 1px solid #ed6c00;
+}
+.school-data-list .data-list .school-list .middle .type-zi {
+  color: #ff9650;
+  border: 1px solid #ff9650;
+}
+.school-data-list .data-list .school-list .middle .type-guo {
+  color: #ffc286;
+  border: 1px solid #ffc286;
+}
+.school-data-list .data-list .school-list .middle .type-zhuo {
+  color: #fbcc9d;
+  border: 1px solid #fbcc9d;
+}
+.school-data-list .data-list .school-list .middle .btn {
+  padding: 3px 4px;
+  color: #fff;
+  outline: none;
+}
+.school-data-list .data-list .school-list .middle .set-target {
+  background-color: #fff;
+  border: 1px solid #d80c18;
+  color: #d80c18;
+  position: absolute;
+  right: 48px;
+  top: 0;
+}
+.school-data-list .data-list .school-list .middle .set-target:hover {
+  background-color: #d80c18;
+  color: #fff;
+}
+.school-data-list .data-list .school-list .middle .forecasting {
+  background-color: #fff;
+  border: 1px solid #d80c18;
+  color: #d80c18;
+  position: absolute;
+  right: -35px;
+  top: 0;
+}
+.school-data-list .data-list .school-list .middle .forecasting:hover {
+  background-color: #d80c18;
+  color: #fff;
+}
+.school-data-list .data-list .school-list .bottom {
+  position: absolute;
+  top: 100px;
+  left: 125px;
+}
+.school-data-list .data-list .school-list .bottom .icon-location, .school-data-list .data-list .school-list .bottom .icon-web {
+  position: relative;
+  top: -2px;
+}
+.school-data-list .data-list .school-list .bottom .province, .school-data-list .data-list .school-list .bottom .belong, .school-data-list .data-list .school-list .bottom .school-type {
+  margin-right: 15px;
+}
+.school-data-list .data-list .school-list .bottom .enter-site {
+  color: #666;
+  font-size: 14px;
+  text-decoration: none;
+}
+.school-data-list .data-list .school-list .bottom b {
+  font-weight: normal;
+}
+.school-data-list .recommend-school {
+  margin-top: 30px;
+  float: right;
+  width: 235px;
+}
+.school-data-list .recommend-school h4 {
+  margin-top: 0;
+}
+.school-data-list .recommend-school .side-banner {
+  background-color: #f1f1f1;
+  width: 235px;
+  height: 127px;
+  margin-bottom: 10px;
+}
+
+.msg-tips {
+  min-height: 100px;
+}
+
+.msg-tips .no-data-img {
+  margin-top: 100px;
+}
+
+.school-data-list .data-list.jiangsu-school-list {
+  width: 100%;
+  float: none;
+}
+.school-data-list .data-list.jiangsu-school-list table {
+  width: 100%;
+}
+.school-data-list .data-list.jiangsu-school-list table .school-list {
+  height: 50px;
+}
+.school-data-list .data-list.jiangsu-school-list table .school-list .school-name {
+  cursor: pointer;
+}
+.school-data-list .data-list.jiangsu-school-list table .school-list .propertys-list {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 200px;
+  text-align: left;
+}
+.school-data-list .data-list.jiangsu-school-list table .school-list .propertys-list .middle {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 5px 0 0 10px;
+}

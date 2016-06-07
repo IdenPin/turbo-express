@@ -1,0 +1,25 @@
+.article-container {
+  min-height: 500px;
+  text-align: center;
+}
+.article-container .title {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #333333;
+}
+.article-container .title-info {
+  font-size: 14px;
+  color: #999;
+}
+.article-container .main img {
+  max-height: 280px;
+}
+.article-container .main .content {
+  text-align: left;
+  font-size: 14px;
+  color: #333333;
+  padding: 10px 0 30px;
+  min-height: 250px;
+  line-height: 24px;
+  text-indent: 24px;
+}

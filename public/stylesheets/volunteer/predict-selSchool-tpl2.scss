@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import "volunteer-prediction-common";
+
+.bgf5 {
+  background-color: #f5f5f5;
+}
+
+.title-name {
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  background: #dedede;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.search-content input[type="button"], .sel-small-btn[type="button"] {
+  width: 180px;
+  outline: none;
+}
+
+.volunteer-btn {
+  display: inherit!important;
+  &:hover {
+    color: #fff!important;
+  }
+}
+.volunteer-title{
+  margin: 20px 0;
+}
+.volunteer-table .school-item {
+  width: 40%;
+}
+.radio-sel{
+  label{
+    text-align: left;
+    margin: 8px!important;
+    input{
+      margin-right: 3px;
+    }
+  }
+}
+tr{
+  .code-number{
+    text-align: center !important;
+    vertical-align: middle !important;
+    width: 8%;
+  }
+}
+.specialty li .input input {
+  width: 180px;
+  height: 35px;
+  background: #fff;
+  padding: 0 8px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.specialty li .input {
+  float: left;
+  text-align: left;
+  width: 178px;
+  height: 35px;
+}

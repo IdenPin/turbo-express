@@ -1,0 +1,456 @@
+@charset "UTF-8";
+/*
+专业信息
+*/
+#search-main {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+#search-main #tips {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  z-index: 100;
+}
+
+.search-box {
+  margin: 10px 60px 50px 190px;
+}
+
+.main-container {
+  min-height: 300px;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+.main-container .box-left {
+  position: relative;
+  margin-right: 30px;
+  width: 200px;
+  float: left;
+  padding-bottom: 10px;
+  color: #fff;
+  background: #d80c18;
+  margin-bottom: 100px;
+}
+.main-container .box-left .toggle-nav {
+  border-bottom: 1px solid #B1191A;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.main-container .box-left .toggle-nav span {
+  width: 97px;
+  text-align: center;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+}
+.main-container .box-left .toggle-nav .triangle-bottom {
+  width: 0;
+  height: 0;
+  border-top: 8px solid \9 ;
+  border-top: 8px solid #B1191A !important;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+  top: 40px;
+  left: 41px;
+  z-index: 99;
+  display: none;
+}
+.main-container .box-left .toggle-nav .active, .main-container .box-left .toggle-nav .toggle-nav-content ul li:hover, .main-container .box-left .toggle-nav-content ul .toggle-nav li:hover {
+  background-color: #B1191A;
+  color: #fff;
+  position: relative;
+}
+.main-container .box-left .toggle-nav .active .triangle-bottom, .main-container .box-left .toggle-nav .toggle-nav-content ul li:hover .triangle-bottom, .main-container .box-left .toggle-nav-content ul .toggle-nav li:hover .triangle-bottom {
+  display: block;
+}
+.main-container .box-left .toggle-nav-content {
+  font-size: 14px;
+  border-top: 1px solid #d80c18;
+  display: none;
+}
+.main-container .box-left .toggle-nav-content ul {
+  margin: 8px;
+}
+.main-container .box-left .toggle-nav-content ul li {
+  cursor: pointer;
+  float: left;
+  margin: 5px 7px 5px 0;
+  padding: 0 6px;
+  line-height: 22px;
+  border-radius: 1px;
+}
+.main-container .box-left .toggle-nav-content ul li:hover {
+  text-align: center;
+}
+.main-container .box-left .toggle-nav-content ul .active, .main-container .box-left .toggle-nav-content ul li:hover {
+  background: #fff;
+  color: #d80c18;
+  border-radius: 3px;
+  text-align: center;
+}
+.main-container .box-left .toggle-nav-content.active, .main-container .box-left .toggle-nav-content ul li.toggle-nav-content:hover {
+  display: block;
+  overflow: hidden;
+  border-top: 1px solid #e0353b;
+}
+.main-container .box-left .w-arrow {
+  cursor: pointer;
+  position: absolute;
+  width: 22px;
+  right: -22px;
+  top: 70px;
+}
+.main-container .box-left .w-arrow .w-arrow-a,
+.main-container .box-left .w-arrow .w-arrow-b {
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+}
+.main-container .box-left .w-arrow .w-arrow-a {
+  border-color: transparent transparent transparent #d80c18;
+}
+.main-container .box-right,
+.main-container .majored-detail {
+  float: left;
+  width: 770px;
+  margin-bottom: 100px;
+}
+.main-container .box-right .title,
+.main-container .majored-detail .title {
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  width: 100%;
+  color: #f3981b;
+  border-bottom: 2px solid #f5f5f5;
+}
+.main-container .box-right .title .t-name,
+.main-container .majored-detail .title .t-name {
+  border-bottom: 2px solid #d80c18;
+  font-size: 18px;
+  margin-right: 30px;
+  font-weight: 700;
+  display: inline-block;
+  color: #333333;
+  line-height: 37px;
+}
+.main-container .box-right .title .rate,
+.main-container .majored-detail .title .rate {
+  margin-right: 15px;
+}
+.main-container .box-right .title .btn-back,
+.main-container .majored-detail .title .btn-back {
+  display: block;
+  float: right;
+  width: 73px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background-color: #d80c18;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.main-container .box-right .title .btn-back .icon-back,
+.main-container .majored-detail .title .btn-back .icon-back {
+  position: relative;
+  top: -2px;
+  margin-right: 2px;
+}
+.main-container .box-right .main,
+.main-container .majored-detail .main {
+  padding-top: 10px;
+}
+.main-container .box-right .main .info,
+.main-container .majored-detail .main .info {
+  font-weight: 700;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 20px;
+}
+.main-container .box-right .main b,
+.main-container .majored-detail .main b {
+  margin-right: 50px;
+}
+.main-container .box-right .main p,
+.main-container .majored-detail .main p {
+  margin: 10px 0;
+}
+.main-container .box-right .main .open-course,
+.main-container .majored-detail .main .open-course {
+  color: #999;
+  margin-bottom: 20px;
+}
+.main-container .box-right .main .sub-title,
+.main-container .majored-detail .main .sub-title {
+  cursor: pointer;
+  line-height: 40px;
+  font-size: 18px;
+  height: 40px;
+  background-color: #f5f5f5;
+  padding: 0 15px;
+  color: #666666;
+}
+.main-container .box-right .main .active, .main-container .box-right .main .box-left .toggle-nav-content ul li:hover, .main-container .box-left .toggle-nav-content ul .box-right .main li:hover,
+.main-container .majored-detail .main .active,
+.main-container .majored-detail .main .box-left .toggle-nav-content ul li:hover,
+.main-container .box-left .toggle-nav-content ul .majored-detail .main li:hover {
+  color: #d80c18;
+  border-bottom: 2px solid #d80c18;
+  padding-bottom: 8px;
+  position: relative;
+}
+.main-container .box-right .main .active .triangle-bottom, .main-container .box-right .main .box-left .toggle-nav-content ul li:hover .triangle-bottom, .main-container .box-left .toggle-nav-content ul .box-right .main li:hover .triangle-bottom,
+.main-container .majored-detail .main .active .triangle-bottom,
+.main-container .majored-detail .main .box-left .toggle-nav-content ul li:hover .triangle-bottom,
+.main-container .box-left .toggle-nav-content ul .majored-detail .main li:hover .triangle-bottom {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid \9 ;
+  border-top: 8px solid #d80c18 !important;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+  top: 31px;
+  left: 28px;
+  z-index: 99;
+}
+.main-container .box-right .main .content,
+.main-container .majored-detail .main .content {
+  padding: 20px 0;
+  line-height: 25px;
+  text-align: justify;
+  text-indent: 30px;
+}
+.main-container .majored-detail {
+  width: 1000px;
+}
+
+ul#majored-category li {
+  display: block;
+  min-width: 54px;
+}
+
+.majored-category-list {
+  border: 1px solid #e5e5e5;
+}
+.majored-category-list h3.list-title {
+  height: 38px;
+  line-height: 38px;
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+  padding: 0 0 0 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.majored-category-list .majored-category-content {
+  padding: 0 0 10px 10px;
+  border-bottom: 2px solid #f6f6f6;
+}
+.majored-category-list .majored-category-content .majored-tab {
+  font-size: 14px;
+  color: #333;
+}
+.majored-category-list .majored-category-content .majored-item {
+  margin: 0 25px 0 0;
+  color: rgba(85, 85, 85, 0.79);
+  line-height: 30px;
+  display: block;
+  float: left;
+}
+.majored-category-list .majored-category-content li {
+  display: inline-block;
+  padding: 0 5px;
+  height: 38px;
+  font-size: 16px;
+  line-height: 38px;
+}
+.majored-category-list .majored-category-content li.active, .majored-category-list .majored-category-content .main-container .box-left .toggle-nav-content ul li:hover, .main-container .box-left .toggle-nav-content ul .majored-category-list .majored-category-content li:hover {
+  border-bottom: 2px solid #d80c18;
+}
+.majored-category-list .majored-category-sub {
+  display: none;
+  padding: 15px;
+}
+.majored-category-list .majored-category-sub a {
+  display: inline-block;
+  margin-right: 20px;
+  color: #333;
+  font-size: 14px;
+}
+.majored-category-list .majored-category-sub.active, .majored-category-list .main-container .box-left .toggle-nav-content ul li.majored-category-sub:hover, .main-container .box-left .toggle-nav-content ul .majored-category-list li.majored-category-sub:hover {
+  display: block;
+}
+
+.majored-category-tab-li {
+  cursor: pointer;
+}
+
+.majored-category-content {
+  overflow: hidden;
+  padding: 0 0 0 10px;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+.search-list {
+  border: 1px solid #ccc;
+  margin: 0 0 20px;
+  overflow: hidden;
+}
+.search-list .search-list-title {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  padding: 0 20px;
+}
+.search-list .search-list-title span {
+  margin-right: 30px;
+}
+.search-list .search-list-content {
+  padding: 20px;
+  overflow: hidden;
+}
+.search-list .search-list-content .majored-item {
+  color: #d80c18;
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+/* cubic add code for data-professional-detail.html*/
+#open-universities-detail .college-list-item {
+  width: 1000px;
+  height: 200px;
+  border-bottom: 1px solid #E5E5E5;
+  overflow: hidden;
+}
+#open-universities-detail .college-list-item:last-child {
+  border: none;
+}
+#open-universities-detail .college-list-item > div {
+  float: left;
+  height: 200px;
+  text-indent: 0px;
+}
+#open-universities-detail .college-list-item .rank {
+  width: 70px;
+}
+#open-universities-detail .college-list-item .rank-1 {
+  background: url("../../img/icon_No.1.png") no-repeat center;
+}
+#open-universities-detail .college-list-item .rank-2 {
+  background: url("../../img/icon_No.2.png") no-repeat center;
+}
+#open-universities-detail .college-list-item .rank-3 {
+  background: url("../../img/icon_No.3.png") no-repeat center;
+}
+#open-universities-detail .college-list-item .logo {
+  width: 140px;
+}
+#open-universities-detail .college-list-item .logo > img {
+  width: 140px;
+  height: 140px;
+  margin: 30px 0px;
+}
+#open-universities-detail .college-list-item .info-container {
+  width: 520px;
+  padding-left: 40px;
+}
+#open-universities-detail .college-list-item .info-container .name {
+  height: 70px;
+  padding-top: 40px;
+  font-size: 22px;
+  line-height: 30px;
+  color: #575757;
+}
+#open-universities-detail .college-list-item .info-container .label-container {
+  height: 30px;
+  overflow: hidden;
+  line-height: 30px;
+}
+#open-universities-detail .college-list-item .info-container .label-container > span {
+  display: block;
+  float: left;
+  height: 26px;
+  line-height: 26px;
+  margin: 2px;
+  padding: 0px 5px;
+  border-radius: 2px;
+  border: solid 1px #000000;
+}
+#open-universities-detail .college-list-item .info-container .label-container .lv-1 {
+  border: solid 1px #d80c18;
+  color: #d80c18;
+}
+#open-universities-detail .college-list-item .info-container .label-container .lv-2 {
+  border: solid 1px #e8380d;
+  color: #e8380d;
+}
+#open-universities-detail .college-list-item .info-container .label-container .lv-8 {
+  border: solid 1px #ed6c00;
+  color: #ed6c00;
+}
+#open-universities-detail .college-list-item .info-container .label-container .lv-16 {
+  border: solid 1px #ff9650;
+  color: #ff9650;
+}
+#open-universities-detail .college-list-item .info-container .label-container .lv-32 {
+  border: solid 1px #ffc286;
+  color: #ffc286;
+}
+#open-universities-detail .college-list-item .info-container .label-container .lv-64 {
+  border: solid 1px #fbcc9d;
+  color: #fbcc9d;
+}
+#open-universities-detail .college-list-item .info-container .misc-container {
+  height: 50px;
+}
+#open-universities-detail .college-list-item .info-container .misc-container > span {
+  width: 150px;
+  height: 60px;
+  line-height: 20px;
+  padding: 20px 10px;
+  display: block;
+  float: left;
+  color: #8C8C8C;
+}
+#open-universities-detail .college-list-item .option {
+  width: 270px;
+  padding-right: 20px;
+}
+#open-universities-detail .college-list-item .option > div {
+  margin-top: 50px;
+  height: 20px;
+  line-height: 20px;
+  text-align: right;
+}
+#open-universities-detail .college-list-item .option > div > a {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  padding: 0px 5px;
+  font-size: 14px;
+  color: #575757;
+  text-decoration: none;
+  min-width: 100px;
+}
+#open-universities-detail .college-list-item .option > div > a > i {
+  vertical-align: sub;
+}
+
+#load-more {
+  background-color: #d80c18;
+  outline: none;
+  color: #FFFFFF;
+  width: 100px;
+  margin: 30px 450px 0px 450px;
+}

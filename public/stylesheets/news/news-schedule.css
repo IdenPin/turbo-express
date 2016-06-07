@@ -1,0 +1,96 @@
+.banner {
+  background: #f8cf7a url("../../img/banner-schedule.jpg");
+  width: 100%;
+  height: 204px;
+}
+.banner .count-down {
+  position: relative;
+}
+.banner .count-down .box {
+  position: absolute;
+  left: 550px;
+  top: 130px;
+  font-size: 20px;
+  color: #fff;
+}
+.banner .count-down .box .date {
+  font-size: 36px;
+  display: inline-block;
+  height: 51px;
+  width: 35px;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.calendar-article .calendar-list {
+  padding: 0;
+  color: #fff;
+}
+.calendar-article .calendar-list li {
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  float: left;
+  height: 60px;
+  width: 60px;
+  margin-right: 19px;
+  line-height: 60px;
+  border-radius: 50%;
+  background-color: #ddd;
+  transition: width ease-in-out .2s;
+}
+.calendar-article .calendar-list .active {
+  background-color: #d80c18;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  position: relative;
+  top: -5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.calendar-article .calendar-list .last-child {
+  margin-right: 0;
+}
+.calendar-article .article-container {
+  clear: both;
+}
+.calendar-article .article-container h3 {
+  font-size: 18px;
+  color: #d80c18;
+}
+.calendar-article .article-container .article-list {
+  float: left;
+  width: 265px;
+  background-color: #f6f6f6;
+  padding: 15px;
+  transition: all ease-in .1s;
+}
+.calendar-article .article-container .article-list .active {
+  color: #d80c18;
+}
+.calendar-article .article-container .article-list a {
+  color: #333;
+  line-height: 30px;
+  font-size: 14px;
+}
+.calendar-article .article-container .article-detail {
+  margin-left: 30px;
+  float: left;
+  width: 705px;
+  min-height: 400px;
+}
+.calendar-article .article-container .article-detail .title-info {
+  text-align: center;
+  border-bottom: 1px dashed #ccc;
+  margin-bottom: 20px;
+}
+.calendar-article .article-container .article-detail .title-info h3 {
+  color: #333;
+  margin: 10px 0;
+}
+.calendar-article .article-container .txt {
+  line-height: 24px;
+  font-size: 14px;
+}

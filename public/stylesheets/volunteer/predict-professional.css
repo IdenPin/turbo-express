@@ -1,0 +1,108 @@
+.volunteer-banner img {
+  width: 100%;
+  height: 204px;
+  background-color: #69a4d3;
+}
+
+.volunteer-main .sidebar {
+  padding: 150px 0 0;
+  position: relative;
+}
+.volunteer-main .sidebar li a {
+  font-size: 16px;
+  color: #333;
+  font-weight: normal;
+}
+.volunteer-main .sidebar li.active a {
+  font-weight: bold;
+}
+.volunteer-main .sidebar .top-bg {
+  position: absolute;
+  top: 15px;
+  left: 45%;
+  width: 109px;
+  height: 109px;
+  margin: 0 0 0 -54px;
+}
+
+.alert-danger {
+  display: none;
+}
+
+.right-container {
+  padding-top: 25px;
+  display: inline-block;
+  width: 780px;
+  float: right;
+}
+.right-container .img-icon {
+  vertical-align: top;
+  margin-right: 110px;
+}
+.right-container .common-row {
+  padding: 30px 30px 30px 70px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+.right-container .common-row h3 {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 15px;
+}
+.right-container .common-row .introl-content {
+  width: 400px;
+  display: inline-block;
+}
+.right-container .common-row .introl-txt {
+  color: #3B3B3B;
+  margin-bottom: 26px;
+  line-height: 22px;
+}
+.right-container .common-row .deline-chance {
+  display: inline-block;
+  color: #F76E6E;
+}
+.right-container .common-row .star-evaluate {
+  cursor: pointer;
+  display: inline-block;
+  width: 145px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #d80c18;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 3px;
+  margin-right: 35px;
+}
+.right-container .common-row .star-evaluate:hover {
+  background-color: #B81B22;
+}
+.right-container .row1 {
+  background-color: #F4FEFF;
+}
+.right-container .row1 h3 {
+  color: #5EB1C0;
+}
+.right-container .row2 {
+  background-color: #F8F7F5;
+}
+.right-container .row2 h3 {
+  color: #ADA189;
+}
+.right-container .row3 {
+  background-color: #FFF5EC;
+}
+.right-container .row3 h3 {
+  color: #E9AD6A;
+}
+.right-container .row4 {
+  background-color: #FEFBEC;
+  margin-bottom: 80px;
+}
+.right-container .row4 h3 {
+  color: #B2B440;
+}

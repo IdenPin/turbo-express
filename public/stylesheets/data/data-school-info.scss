@@ -1,0 +1,294 @@
+@charset "utf-8";
+@import "../variables";
+
+.search-box {
+  margin: 30px 60px 30px 190px;
+}
+
+._ml45 {
+  margin-left: -45px !important;
+}
+
+//院校信息筛选
+.select-box {
+  //border: 1px solid #ccc;
+  padding: 10px 0;
+  clear: both;
+  .content {
+    height: 315px;
+    border: 1px solid #e8e8e8;
+    padding: 20px 29px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 99;
+  }
+  .tips{
+    color: $mainColor;
+  }
+
+  .comm-select {
+    padding: 10px 0;
+    //border-bottom: 1px dashed #ccc;
+    .left-title {
+      line-height: 24px;
+      float: left;
+      width: 130px;
+      h2 {
+        font-size: 14px;
+        display: inline-block;
+        padding: 0;
+        margin: 0 5px 0 0;
+      }
+      .all {
+        padding: 3px 5px;
+        border-radius: 1px;
+        margin: 0 5px 5px 5px;
+        cursor: pointer;
+      }
+      .active {
+        @extend .hover;
+        &:hover {
+          @extend .hover;
+        }
+      }
+    }
+    .hover {
+      color: #fff;
+      background-color: $mainColor;
+    }
+    .right-item {
+      padding: 0;
+      width: 810px;
+      float: left;
+      li {
+        padding: 2px 5px;
+        border-radius: 1px;
+        margin: 0 6px 6px 0;
+        float: left;
+        cursor: pointer;
+        &:hover {
+          //transition:all 1s;
+          @extend .hover;
+        }
+      }
+    }
+    .h95 {
+      height: 95px;
+      border-bottom: 1px #ccc dashed;
+      margin-bottom: 15px;
+    }
+    .h40 {
+      height: 40px;
+      border-bottom: 1px dashed #ccc;
+      margin-bottom: 15px;
+    }
+    .active {
+      @extend .hover;
+    }
+  }
+}
+
+//院校列表
+//color
+
+.school-data-list {
+  h2, ul {
+    margin: 0;
+    padding: 0;
+  }
+  .data-list {
+    margin-top: 30px;
+    float: left;
+    width: 730px;
+    margin-right: 35px;
+    //background-color: #00d6b2;
+    //border-top: 1px dashed #ccc;
+    .school-list {
+      border-bottom: 1px solid hsla(0, 0%, 92%, .7);
+      position: relative;
+      height: 140px;
+      font-size: 14px;
+      color: #666666;
+      .school-logo {
+        position: absolute;
+        cursor: pointer;
+        top: 20px;
+        left: 0;
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+      }
+      .comm-position {
+        position: absolute;
+        top: 20px;
+      }
+      .top {
+        @extend .comm-position;
+        left: 125px;
+        font-weight: 700;
+        .school-name {
+          cursor: pointer;
+          font-size: 20px;
+          color: $fontBaseColor;
+          margin-right: 20px;
+        }
+        .icon-flag {
+          margin-right: 5px;
+          position: relative;
+          top: -2px;
+        }
+        .collect {
+          color: #666;
+          font-size: 14px;
+          text-decoration: none;
+          outline: none;
+          .icon-heart,
+          .icon-heart-no {
+            margin: 0 5px 0 20px;
+            position: relative;
+            top: -2px;
+          }
+        }
+      }
+      .middle {
+        @extend .comm-position;
+        top: 57px;
+        left: 125px;
+        width: 570px;
+        span {
+          padding: 1px 3px;
+          border-radius: 1px;
+          margin-right: 2px;
+        }
+        .type-985 {
+          color: $listColor1;
+          border: 1px solid $listColor1;
+        }
+        .type-211 {
+          color: $listColor2;
+          border: 1px solid $listColor2;
+        }
+        .type-yan {
+          color: $listColor3;
+          border: 1px solid $listColor3;
+        }
+        .type-zi {
+          color: $listColor4;
+          border: 1px solid $listColor4;
+        }
+        .type-guo {
+          color: $listColor5;
+          border: 1px solid $listColor5;
+        }
+        .type-zhuo {
+          color: $listColor6;
+          border: 1px solid $listColor6;
+        }
+        .btn {
+          padding: 3px 4px;
+          color: #fff;
+          outline: none;
+        }
+        .set-target {
+          background-color: #fff;
+          border:1px solid $mainColor;
+          color: $mainColor;
+          position: absolute;
+          right: 48px;
+          top: 0;
+          &:hover{
+            background-color: $mainColor;
+            color: #fff;
+          }
+        }
+        .forecasting {
+          background-color: #fff;
+          border:1px solid $mainColor;
+          color: $mainColor;
+          position: absolute;
+          right: -35px;
+          top: 0;
+          &:hover{
+            background-color: $mainColor;
+            color: #fff;
+          }
+        }
+      }
+      .bottom {
+        position: absolute;
+        top: 100px;
+        left: 125px;
+        .icon-location, .icon-web {
+          position: relative;
+          top: -2px;
+        }
+        .province, .belong, .school-type {
+          margin-right: 15px;
+        }
+        .enter-site {
+          color: #666;
+          font-size: 14px;
+          text-decoration: none;
+        }
+        b {
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  .recommend-school {
+    h4 {
+      margin-top: 0;
+    }
+    margin-top: 30px;
+    float: right;
+    width: 235px;
+    .side-banner {
+      background-color: #f1f1f1;
+      width: 235px;
+      height: 127px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+//没有数据了
+.msg-tips {
+  min-height: 100px;
+}
+
+//收缩筛选
+.msg-tips .no-data-img {
+  margin-top: 100px;
+}
+
+
+.school-data-list .data-list.jiangsu-school-list{
+  width:100%;
+  float:none;
+  table{
+    width:100%;
+    .school-list{
+      .school-name{
+        cursor: pointer;
+      }
+      height:50px;
+      .propertys-list{
+        position: relative;
+        left:0;
+        top:0;
+        width:200px;
+        text-align: left;
+        .middle{
+          position: absolute;
+          width:100%;
+          left:0;
+          top:0;
+          padding:5px 0 0 10px;
+        }
+      }
+    }
+  }
+}
+
+
