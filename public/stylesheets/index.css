@@ -11,7 +11,7 @@
 }
 .banner .ui-location-reporting {
   position: relative;
-  background: #f2c625 url("../img/banner-1.png") 120px 0;
+  background: #f2c625 url("../images/banner-1.png") 120px 0;
   width: 1000px;
   height: 320px;
   margin: 0 auto;
@@ -238,7 +238,7 @@
   margin: 0 auto;
   height: 77px;
   width: 77px;
-  background: url("../img/Group-1.png");
+  background: url("../images/Group-1.png");
   transition: All 0.4s ease-in-out;
   -webkit-transition: All 0.4s ease-in-out;
   -moz-transition: All 0.4s ease-in-out;
@@ -249,13 +249,13 @@
 }
 @-webkit-keyframes step-flag {
   0% {
-    background: url(../img/Group-2.png);
+    background: url(../images/Group-2.png);
   }
   25% {
-    background: url(../img/Group-3.png);
+    background: url(../images/Group-3.png);
   }
   50% {
-    background: url(../img/Group-4.png);
+    background: url(../images/Group-4.png);
   }
 }
 .zgk-intro .intro-login {
@@ -369,7 +369,7 @@
   position: relative;
 }
 .banner-advertise .banner-advertise-img {
-  background: url(../img/advertise1.png) no-repeat;
+  background: url(../images/advertise1.png) no-repeat;
   height: 163px;
   width: 163px;
 }
@@ -528,22 +528,22 @@
 }
 .gk-data .data-module .box:hover .img-link-1 {
   transition: border-radius ease-in-out .4s;
-  background: url(../img/icon-intro-1-hover.png);
+  background: url(../images/icon-intro-1-hover.png);
 }
 .gk-data .data-module .box:hover .img-link-2 {
-  background: url(../img/icon-intro-2-hover.png);
+  background: url(../images/icon-intro-2-hover.png);
 }
 .gk-data .data-module .box:hover .img-link-3 {
-  background: url(../img/icon-intro-3-hover.png);
+  background: url(../images/icon-intro-3-hover.png);
 }
 .gk-data .data-module .box:hover .img-link-4 {
-  background: url(../img/icon-intro-4-hover.png);
+  background: url(../images/icon-intro-4-hover.png);
 }
 .gk-data .data-module .box:hover .img-link-5 {
-  background: url(../img/icon-intro-5-hover.png);
+  background: url(../images/icon-intro-5-hover.png);
 }
 .gk-data .data-module .box:hover .img-link-6 {
-  background: url(../img/icon-intro-6-hover.png);
+  background: url(../images/icon-intro-6-hover.png);
 }
 .gk-data .data-module .box .img-link {
   float: left;
@@ -554,22 +554,22 @@
   transition: border-radius ease-in-out .4s;
 }
 .gk-data .data-module .box .img-link-1 {
-  background: url(../img/icon-intro-1.png);
+  background: url(../images/icon-intro-1.png);
 }
 .gk-data .data-module .box .img-link-2 {
-  background: url(../img/icon-intro-2.png);
+  background: url(../images/icon-intro-2.png);
 }
 .gk-data .data-module .box .img-link-3 {
-  background: url(../img/icon-intro-3.png);
+  background: url(../images/icon-intro-3.png);
 }
 .gk-data .data-module .box .img-link-4 {
-  background: url(../img/icon-intro-4.png);
+  background: url(../images/icon-intro-4.png);
 }
 .gk-data .data-module .box .img-link-5 {
-  background: url(../img/icon-intro-5.png);
+  background: url(../images/icon-intro-5.png);
 }
 .gk-data .data-module .box .img-link-6 {
-  background: url(../img/icon-intro-6.png);
+  background: url(../images/icon-intro-6.png);
 }
 .gk-data .data-module .box .txt {
   width: 135px;
@@ -635,7 +635,7 @@
   position: relative;
   height: 540px;
   width: 100%;
-  background: url("../img/go-where-bg.png");
+  background: url("../images/go-where-bg.png");
 }
 .hot-go-where .map-box {
   height: 540px;

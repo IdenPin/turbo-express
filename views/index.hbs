@@ -1,3 +1,7 @@
+{{#extend "stylesheets"}}
+    <title>智高考</title>
+    <link rel="stylesheet" href="/stylesheets/index.css"/>
+{{/extend}}
 <div class="banner">
     <div class="w1000 ui-location-reporting">
         <div class="toggle-container-box">
@@ -167,8 +171,6 @@
         <h2 class="h2-t">
             <span class="line"></span>高考日程 <a href="/news-schedule.html" class="more-btn">更多</a></h2>
         <ul class="list" id="schedule-list">
-        </ul>
-        <script id="gk-schedule-list" type="text/x-handlebars-template">
             {{#each bizData}}
                 <li>
                     <span>{{month}}月</span>
@@ -181,14 +183,13 @@
                     </a>
                 </li>
             {{/each}}
-        </script>
+        </ul>
     </div>
 </div>
 <!--高考头条-->
 <div class="gk-headlines w1000">
     <h2 class="h2-t w1000"><span class="line"></span>高考头条 <a href="/news-hot.html" class="more-btn">更多</a></h2>
-    <div class="headlines-list" id="gk-top"></div>
-    <script id="gk-top-list" type="text/x-handlebars-template">
+    <div class="headlines-list" id="gk-top">
         {{#each rows}}
             <div class="box">
                 <a href="/news-detail.html?hid={{id}}" class="img-cover" target="_blank">
@@ -203,7 +204,7 @@
                 <p>时间：<span>{{hotDate}}</span></p>
             </div>
         {{/each}}
-    </script>
+    </div>
 </div>
 <!--热门去向-->
 <div class="hot-go-where">
@@ -297,7 +298,10 @@
             专家一对一：顶尖高考专家，全方位指导</p>
     </div>
 </div>
-<script data-debug src="/__build/vendors.js"></script>
-<script data-debug src="/__build/index.js"></script>
+{{#extend "scripts"}}
+    <script>
+        console.info('foo bar!');
+    </script>
+{{/extend}}
 </body>
 </html>
