@@ -2,8 +2,8 @@
  * Created by pdeng on 16/1/18.
  * 首页.使用html-loader实现html页面继承
  * */
-define(['commonjs', '../css/index.css', 'handlebars', 'tips', 'cookie', 'autoComplete'], function (util, indexCss, handlebars, tips, cookie) {
-
+//define(['commonjs', '../css/index.css', 'handlebars', 'tips', 'cookie', 'autoComplete'], function (util, indexCss, handlebars, tips, cookie) {
+    var util = require('commonjs');
     //banner
     var bannerUrl = require("img/advertise1.png");
     /*
@@ -161,4 +161,5 @@ define(['commonjs', '../css/index.css', 'handlebars', 'tips', 'cookie', 'autoCom
     $('#report-btn').on('click',function(){
         sa.track('index_start_pos_btn')
     })
-});
+//});
+module.exports = index;
